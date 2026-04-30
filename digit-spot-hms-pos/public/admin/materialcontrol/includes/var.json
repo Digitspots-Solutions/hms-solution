@@ -1,0 +1,17 @@
+{
+	"webpacket" : [
+		{
+			"webtitle":"Centino Global | Inventory & Sales Application System",
+			"description":"for warehousing, inventory & sales management",
+			"backendlongname":"Centino Global",
+			"backendshortname":"Centino Global",
+			"suffixname":"for warehousing, inventory & sales management"
+		}
+	],
+	"startup" : [
+		{
+			"backgroundcolor":"#6a5acd",
+			"image":"../theme/images/general/screen-splash-image.jpg"
+		}
+	]
+}

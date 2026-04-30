@@ -1,0 +1,475 @@
+/* css vector icons */
+/* Ibat Informatics css library */
+/* Copyright 2019 */
+
+.fa-listing:before, .fa-fbk:before, .fa-linkedin:before, .fa-instagram:before, .fa-youtube:before, .fa-twitter:before, .fa-mark-bullet:before, .fa-arrow-up:before, .fa-arrow-down:before, .fa-arrow-left:before, .fa-arrow-right:before, .fa-play-video:before, .fa-trash:before, .fa-lock-pwd:before, .fa-user:before, .fa-search:after, .fa-camera:before, .fa-cart:before, .fa-bookmark:before, .fa-bookmark-fil:before, .fa-database:before, .fa-envelop:before, .fa-attach:before, .fa-setting:before, .fa-phone:before, .fa-desktop:before, .fa-location:before, .fa-food:before, .fa-recycle:before, .fa-bicycle:before, .fa-bus:before, .fa-hand-up:before, .fa-money:before, .fa-globe:before, .fa-thumbs-up:before, .fa-thumbs-down:before, .fa-comments:before, .fa-folder-open:before, .fa-comment:before, .fa-calendar:before, .fa-share:before, .fa-times-circle:before, .fa-play:before, .fa-map-marker:before, .fa-print:before, .fa-barcode:before, .fa-clock:before, .fa-user-network:before, .fa-goback:before, .fa-nointernet:before, .fa-home:before, .fa-favourite:before, .fa-checker:before, .fa-umbrella:before, .fa-refresh:before, .fa-male:before, .fa-female:before, .fa-android:before, .fa-apple:before, .fa-windows:before, .fa-google:before, .fa-eye:before, .fa-gift:before, .fa-recycle:before, .fa-credit-card:before, .fa-unlock:before, .fa-wallet:before, .fa-file-download:before, .fa-ambulance:before, .fa-rocket:before, .fa-bed:before, .fa-flag:before, .fa-ellipsis:before, .fa-heart:before, .fa-visa-card:before, .fa-master-card:before {
+	font-family: 'FontAwesome' !important;
+}
+
+.fa-listing:before, .fa-fbk:before, .fa-linkedin:before, .fa-instagram:before, .fa-youtube:before, .fa-twitter:before, .fa-arrow-up:before, .fa-arrow-down:before, .fa-arrow-left:before, .fa-arrow-right:before, .fa-play-video:before, .fa-trash:before, .fa-search:after, .fa-camera:before, .fa-cart:before, .fa-database:before, .fa-envelop:before, .fa-attach:before, .fa-setting:before, .fa-goback:before, .fa-home:before, .fa-favourite:before, .fa-refresh:before, .fa-android:before, .fa-apple:before, .fa-windows:before, .fa-google:before, .fa-eye:before, .fa-ellipsis:before {
+	cursor: pointer;
+}
+
+
+.fa-visa-card:before {
+	content: '\f1f0';
+}
+
+.fa-master-card:before {
+	content: '\f1f1';
+}
+
+.fa-heart:before {
+	content: '\f004';
+}
+
+.fa-ellipsis:before {
+	content: '\f142';
+}
+
+.fa-flag:before {
+	content:"\f024";
+}
+
+.fa-rocket:before {
+	content: '\f135';
+}
+
+.fa-ambulance:before {
+	content: '\f0f9';
+}
+
+.fa-file-download:before {
+	content: '\f0ed';
+}
+
+.fa-wallet:before {
+	content: '\f1ee';
+}
+
+.fa-unlock:before {
+	content: '\f09c';
+}
+
+.fa-credit-card:before {
+	content: '\f09d';
+}
+
+.fa-recycle:before {
+	content: '\f1b8';
+}
+
+.fa-gift:before {
+	content: '\f06b';
+}
+
+.fa-eye:before {
+	content: '\f06e';
+}
+
+.fa-google:before {
+	content: '\f1a0';
+}
+
+.fa-android:before {
+	content: '\f17b';
+}
+
+.fa-apple:before {
+	content: '\f179';
+}
+
+.fa-windows:before {
+	content: '\f17a';
+}
+
+.fa-male:before {
+	content: '\f183';
+}
+
+.fa-female:before {
+	content: '\f182';
+}
+
+.fa-refresh:before {
+	content: '\f021';
+}
+
+.fa-bed:before {
+	content: '\f236';
+}
+
+.fa-umbrella:before {
+	content: '\f0e9';
+}
+
+.fa-checker:before {
+	content: '\f00c';
+}
+
+.fa-favourite:before {
+	content: '\f005';
+}
+
+.fa-home:before {
+	content: '\f015';
+}
+
+.fa-nointernet:before {
+	content: '\f11a';
+}
+
+.fa-clock:before {
+	content: '\f017';
+}
+
+.fa-barcode:before {
+	content: '\f02a';
+}
+
+.fa-print:before {
+	content: '\f02f';
+}
+
+.fa-map-marker:before {
+	content: '\f041';
+}
+
+.fa-play:before {
+	content: '\f04b';
+}
+
+.fa-times-circle:before {
+	content: '\f057';
+}
+
+.fa-share:before {
+	content: '\f064';
+}
+
+.fa-calendar:before {
+	content: '\f073';
+}
+
+.fa-comment:before {
+	content: '\f075';
+}
+
+.fa-folder-open:before {
+	content: '\f07c';
+}
+
+.fa-comments:before {
+	content: '\f086';
+}
+
+.fa-thumbs-up:before {
+	content: '\f087';
+}
+
+.fa-thumbs-down:before {
+	content: '\f088';
+}
+
+.fa-globe:before {
+	content: '\f0ac';
+}
+
+.fa-money:before {
+	content: '\f0d6';
+}
+
+.fa-hand-up:before {
+	content: '\f0a6';
+}
+
+.fa-bus:before {
+	content: '\f207';
+}
+
+.fa-bicycle:before {
+	content: '\f206';
+}
+
+.fa-recycle:before {
+	content: '\f1b8';
+}
+
+.fa-food:before {
+	content: '\f0f5';
+}
+
+.fa-listing:before {
+	content: '\f0c9';
+}
+
+.fa-fbk:before {
+	content: '\f09a';
+}
+
+.fa-linkedin:before {
+	content: '\f08c';
+}
+
+.fa-instagram:before {
+	content: '\f16d';
+}
+
+.fa-youtube:before {
+	content: '\f167';
+}
+
+.fa-twitter:before {
+	content: '\f099';
+}
+
+.fa-mark-bullet:before {
+	content: '\f00c';
+}
+
+.fa-arrow-up:before {
+	content: '\f106';
+}
+
+.fa-arrow-down:before {
+	content: '\f107';
+}
+
+.fa-arrow-left:before {
+	content: '\f104';
+}
+
+.fa-arrow-right:before {
+	content: '\f105';
+}
+
+.fa-goback:before {
+	content: '\f060';
+}
+
+.fa-play-video:before {
+	content: '\f01d';
+}
+
+.fa-trash:before {
+	content: '\f014';
+}
+
+.fa-lock-pwd:before {
+	content: '\f023';
+}
+
+.fa-user:before {
+	content: '\f007';
+}
+
+.fa-user-network:before {
+	content: '\f0c0';
+}
+
+.fa-search:after {
+	content: '\f002';
+}
+
+.fa-camera:before {
+	content: '\f030';
+}
+
+.fa-cart:before {
+	content: '\f07a';
+}
+
+.fa-bookmark:before {
+	content: '\f097';
+}
+
+.fa-bookmark-fil:before {
+	content: '\f02e';
+}
+
+.fa-database:before {
+	content: '\f1c0';
+}
+
+.fa-envelop:before {
+	content: '\f0e0';
+}
+
+.fa-attach:before {
+	content: '\f0c6';
+}
+
+.fa-setting:before {
+	content: '\f085';
+}
+
+.fa-phone:before {
+	content: '\f095';
+}
+
+.fa-desktop:before {
+	content: '\f108';
+}
+
+.fa-location:before {
+	content: '\f041';
+}
+
+.fa-nets:before {
+	content: '::.';
+}
+
+.fa-plus:before {
+	content: '+';
+}
+
+.fa-nets:before,.fa-plus:before {
+	float: right;
+}
+
+/* diff sizes */
+
+.fa-xxlarge-size:before {
+	font-weight: normal;
+	font-size: 10.0em !important;
+}
+
+.fa-xlarge-size:before {
+	font-weight: normal;
+	font-size: 7.0em !important;
+}
+
+.fa-large-size:before {
+	font-weight: normal;
+	font-size: 5.5em !important;
+}
+
+.fa-mini-size:before {
+	font-weight: normal;
+	font-size: 3.5em !important;
+}
+
+.fa-sml-size:before {
+	font-weight: normal;
+	font-size: 1.3em !important;
+}
+
+.fa-xsml-size:before {
+	font-weight: normal;
+	font-size: 0.8em !important;
+}
+
+
+/* diff colors */
+
+.fa-color-strike-1:before {
+	-webkit-text-stroke: 2px #fff;
+	color: #000;
+}
+
+.fa-color-strike-2:before {
+	-webkit-text-stroke: 2px #2d2d2d;
+	color: #fff;
+}
+
+.fa-color-strike-3:before {
+	-webkit-text-stroke: 2px #4169e1;
+	color: #fff;
+}
+
+.fa-color-strike-4:before {
+	-webkit-text-stroke: 2px #000;
+	color: #fff;
+}
+
+.fa-color-strike-5:before {
+	-webkit-text-stroke: 2px #1d1d1d;
+	color: #fff;
+}
+
+.fa-color-strike-6:before {
+	-webkit-text-stroke: 1px #b22222;
+	color: #fff;
+}
+
+.fa-color-strike-7:before {
+	-webkit-text-stroke: 2px #1e90ff;
+	color: #fff;
+}
+
+.fa-color-strike-8:before {
+	-webkit-text-stroke: 2px #ff8c00;
+	color: #fff;
+}
+
+.fa-color-strike-9:before {
+	-webkit-text-stroke: 2px #9400d3;
+	color: #fff;
+}
+
+.fa-color-strike-10:before {
+	-webkit-text-stroke: 1px #c1c1c1;
+	color: #f9f9f9;
+}
+
+.fa-color-strike-11:before {
+	-webkit-text-stroke: 2px #fff;
+	color: #b22222;
+}
+
+.fa-color-strike-12:before {
+	-webkit-text-stroke: 2px #fff;
+	color: #4169e1;
+}
+
+.fa-color-strike-13:before {
+	-webkit-text-stroke: 2px #b22222;
+	color: #fff;
+}
+
+.fa-color-strike-14:before {
+	-webkit-text-stroke: 1px #fff;
+	color: #2d2d2d;
+}
+
+.fa-color-strike-15:before {
+	-webkit-text-stroke: 2px #f9f9f9;
+	color: #000;
+}
+
+.fa-color-strike-16:before {
+	-webkit-text-stroke: 2px #fff;
+}
+
+.fa-color-strike-17:before {
+	-webkit-text-stroke: 2px #4169e1;
+}
+
+
+.fa-color-white:before {
+	color: #fff;
+}
+
+.fa-color-black:before {
+	color: #000;
+}
+
+.fa-color-grey:before {
+	color: #777;
+}
+
+.fa-color-lightgrey:before {
+	color: #f5f5f5;
+}
+
+.fa-color-red:before {
+	color: #b22222;
+}
+
+.fa-color-blue:before {
+	color: #1e90ff;
+}
+
+.fa-color-lightsea:before {
+	color: #8fbc8f;
+}

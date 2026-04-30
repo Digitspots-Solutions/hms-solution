@@ -1,0 +1,468 @@
+/* css postform file */
+/* Ibat Informatics css library */
+/* Copyright 2019 */
+
+fieldset {
+	border: 1px solid #c1c1c1;
+	border-radius: 5px;
+	-webkit-border-radius: 5px;
+}
+
+fieldset > legend.sty {
+	
+}
+
+input[list], input[type='text'], input[type='number'], input[type='date'], input[type='time'], input[type='password'], input[type='email'], input[type='url'], input[type='color'], select, textarea, div.xform, span.xform {
+	border: 1px solid #e4e4e4;
+	padding: 11px;
+	width: 100%;
+	font-family: tahoma,verdana,arial,sans serif;
+	font-size: 15px;
+	border-radius: 5px;
+	-webkit-border-radius: 5px;
+}
+
+input[list]:hover, input[type='text']:hover, input[type='number']:hover, input[type='date']:hover, input[type='time']:hover, input[type='password']:hover, input[type='email']:hover, input[type='url']:hover, input[type='color']:hover, select:hover, textarea:hover, div.xform:hover, span.xform:hover {
+	border: 1px solid #c1c1c1;
+}
+
+input[list]:focus, input[type='text']:focus, input[type='number']:focus, input[type='date']:focus, input[type='time']:hover, input[type='password']:focus, input[type='email']:focus, input[type='url']:focus, input[type='color']:focus, textarea:focus, div.xform:focus, span.xform:focus {
+	border: 1px solid #8470ff;
+}
+
+textarea.notextborder:focus {
+	outline: 0 !important;
+}
+
+textarea {
+	resize: none;
+	height: 80px;
+}
+
+.pads50 {
+	padding: 50px !important;
+}
+
+.pads30 {
+	padding: 30px !important;
+}
+
+.pads20 {
+	padding: 20px !important;
+}
+
+.pads15 {
+	padding: 15px !important;
+}
+
+.pads12 {
+	padding: 12px !important;
+}
+
+.pads10 {
+	padding: 10px !important;
+}
+
+.pads7 {
+	padding: 7px !important;
+}
+
+.nopads {
+	padding: 0 !important;
+}
+
+input[type='submit'].submit, input[type='button'].submit, a.submit {
+	cursor: pointer;
+	font-family: tahoma,verdana,arial,sans serif;
+	font-size: 17px;
+}
+
+input:focus,select:focus {
+	outline: 0;
+}
+
+.form-block-label {
+	margin: 0 0 10px 0;
+}
+
+.form-block-label-uline {
+	margin: 0 0 10px 0;
+	border-bottom: 1px solid #e1e1e1 !important;
+	border-top: none !important;
+	border-left: none !important;
+	border-right: none !important;
+	background: none !important;
+}
+
+.form-block-label-fline {
+	margin: 0 0 10px 0;
+	border: 1px solid #e1e1e1 !important;
+	background: none !important;
+}
+
+/* button no-color background */
+
+.no-back-white {
+	background: none !important;
+	border: none !important;
+	color: #fff !important;
+}
+
+.no-back-black {
+	background: none !important;
+	border: none !important;
+	color: #000 !important;
+}
+
+.no-back-blue {
+	background: none !important;
+	border: none !important;
+	color: #1e90ff !important;
+}
+
+.no-back-grey {
+	background: none !important;
+	border: none !important;
+	color: #777 !important;
+}
+
+/* button on-over state */
+
+.dark-blue-state {
+	background-color: #483d8b;
+	border: 1px solid #483d8b;
+	color: #fff;
+}
+
+.dark-blue-state:hover {
+	background-color: #6a5acd;
+	border: 1px solid #6a5acd;
+	color: #fff;
+}
+
+.blue-white-state {
+	background-color: #4169e1;
+	border: 1px solid #4169e1;
+	color: #fff;
+}
+
+.blue-white-state:hover {
+	background-color: #1e90ff;
+	border: 1px solid #1e90ff;
+	color: #fff;
+}
+
+.black-white-state {
+	background-color: #777;
+	border: 1px solid #777;
+	color: #fff;
+}
+
+.black-white-state:hover {
+	background-color: #333;
+	border: 1px solid #333;
+	color: #fff;
+}
+
+.dark-black-white-state {
+	background-color: #333;
+	border: 1px solid #333;
+	color: #fff;
+}
+
+.dark-black-white-state:hover {
+	background-color: #1d1d1d;
+	border: 1px solid #1d1d1d;
+	color: #fff;
+}
+
+.red-white-state {
+	background-color: #cc0000;
+	border: 1px solid #cc0000;
+	color: #fff;
+}
+
+.red-white-state:hover {
+	background-color: #ff0000;
+	border: 1px solid #ff0000;
+	color: #fff;
+}
+
+.green-white-state {
+	background-color: #2e8b57;
+	border: 1px solid #2e8b57;
+	color: #fff;
+}
+
+.green-white-state:hover {
+	background-color: #3cb371;
+	border: 1px solid #3cb371;
+	color: #fff;
+}
+
+.lfgreen-white-state {
+	background-color: #556b2f;
+	border: 1px solid #556b2f;
+	color: #fff;
+}
+
+.lfgreen-white-state:hover {
+	background-color: #8fbc8f;
+	border: 1px solid #8fbc8f;
+	color: #000;
+}
+
+.pink-white-state {
+	background-color: #ff1493;
+	border: 1px solid #ff1493;
+	color: #fff;
+}
+
+.pink-white-state:hover {
+	background-color: #ff69b4;
+	border: 1px solid #ff69b4;
+	color: #fff;
+}
+
+.orange-white-state {
+	background-color: #ff4500;
+	border: 1px solid #ff4500;
+	color: #fff;
+}
+
+.orange-white-state:hover {
+	background-color: #ff8c00;
+	border: 1px solid #ff8c00;
+	color: #000;
+}
+
+.white-blue-state {
+	background-color: #fff;
+	border: 1px solid #fff;
+	color: #4169e1;
+}
+
+.white-blue-state:hover {
+	background-color: #4169e1;
+	border: 1px solid #4169e1;
+	color: #fff;
+}
+
+.white-red-state {
+	background-color: #fff;
+	border: 1px solid #fff;
+	color: #ff0000;
+}
+
+.white-red-state:hover {
+	background-color: #b22222;
+	border: 1px solid #b22222;
+	color: #fff;
+}
+
+.white-black-state {
+	background-color: #fff;
+	border: 1px solid #fff;
+	color: #1d1d1d;
+}
+
+.white-black-state:hover {
+	background-color: #1d1d1d;
+	border: 1px solid #1d1d1d;
+	color: #fff;
+}
+
+.white-grey-state {
+	background-color: #fff;
+	border: 1px solid #fff;
+	color: #1d1d1d;
+}
+
+.white-grey-state:hover {
+	background-color: #f1f1f1;
+	border: 1px solid #f1f1f1;
+	color: #1d1d1d;
+}
+
+.white-orange-state {
+	background-color: #fff;
+	border: 1px solid #fff;
+	color: #ffa500;
+}
+
+.white-orange-state:hover {
+	background-color: #ffa500;
+	border: 1px solid #ffa500;
+	color: #fff;
+}
+
+.nobackground-white-red-state {
+	background-color: none;
+	border: 1px solid #fff;
+	color: #fff;
+}
+
+.nobackground-white-red-state:hover {
+	background-color: #fff;
+	border: 1px solid #fff;
+	color: #b22222;
+}
+
+.nobackground-white-blue-state {
+	background-color: none;
+	border: 1px solid #fff;
+	color: #fff;
+}
+
+.nobackground-white-blue-state:hover {
+	background-color: #fff;
+	border: 1px solid #fff;
+	color: #4169e1;
+}
+
+.nobackground-white-black-state {
+	background-color: none;
+	border: 1px solid #fff;
+	color: #fff;
+}
+
+.nobackground-white-black-state:hover {
+	background-color: #fff;
+	border: 1px solid #fff;
+	color: #000;
+}
+
+.nobackground-white-black-state-nl {
+	background-color: none;
+	color: #fff;
+}
+
+.nobackground-white-black-state-nl:hover {
+	background-color: #fff;
+	color: #000;
+}
+
+.nobackground-white-red-state-nl {
+	background-color: none;
+	color: #fff;
+}
+
+.nobackground-white-red-state-nl:hover {
+	background-color: #fff;
+	color: #b22222;
+}
+
+.nobackground-white-blue-state-nl {
+	background-color: none;
+	color: #fff;
+}
+
+.nobackground-white-blue-state-nl:hover {
+	background-color: #fff;
+	color: #4169e1;
+}
+
+
+/* rounded shape */
+
+.rounded-button {
+	border-radius: 27px;
+	-webkit-border-radius: 27px;
+}
+
+.mini-rounded-button {
+	border-radius: 15px;
+	-webkit-border-radius: 15px;
+}
+
+.sml-rounded-button {
+	border-radius: 7px;
+	-webkit-border-radius: 7px;
+}
+
+.xsml-rounded-button {
+	border-radius: 5px;
+	-webkit-border-radius: 5px;
+}
+
+.xxsml-rounded-button {
+	border-radius: 3px;
+	-webkit-border-radius: 3px;
+}
+
+/* button span width */
+
+span.button150 {
+	width: 150px;
+}
+
+span.button100 {
+	width: 100px;
+}
+
+span.button80 {
+	width: 80px;
+}
+
+span.button250 {
+	width: 250px;
+}
+
+input.textplaceholder::-webkit-input-placeholder { color: #555 !important; }
+input.textplaceholder:-moz-placeholder { /* Firefox 18- */ color: #555 !important; }
+input.textplaceholder::-moz-placeholder {  /* Firefox 19+ */ color: #555 !important; }
+input.textplaceholder:-ms-input-placeholder { color: #555 !important; }
+
+.obj-emboss {
+  border: 1px solid transparent;
+  border-top: none;
+  border-bottom: 1px solid #DDD;
+  box-shadow: inset 0 1px 2px rgba(0,0,0,.30), 0 -1px 1px #FFF, 0 1px 0 #FFF;
+}
+
+@media screen and (max-width: 599px) {
+	
+	.pads30 {
+		padding: 20px !important;
+	}
+	
+	.pads20 {
+		padding: 17px !important;
+	}
+
+	.pads15 {
+		padding: 12px;
+	}
+
+	.pads12 {
+		padding: 10px;
+	}
+
+	.pads10 {
+		padding: 7px;
+	}
+}
+
+/* iPad device */
+@media only screen and (device-width: 599px) {
+	
+	.pads30 {
+		padding: 20px !important;
+	}
+	
+	.pads20 {
+		padding: 17px !important;
+	}
+	
+	.pads15 {
+		padding: 12px;
+	}
+
+	.pads12 {
+		padding: 10px;
+	}
+
+	.pads10 {
+		padding: 7px;
+	}
+}

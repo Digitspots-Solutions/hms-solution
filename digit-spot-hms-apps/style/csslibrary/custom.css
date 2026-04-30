@@ -1,0 +1,534 @@
+ /* customized css file */
+
+.x-theme-01 {
+ 	background-image: url('../../theme/images/general/pix-2.jpg');
+	background-position: left 50px -50px;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.x-obj-01{
+ 	background-image: url('../../theme/images/general/obj-01.png');
+	background-position: left bottom;
+	background-repeat: repeat-x;
+}
+
+.cs-neg-bottom-margin-120 {
+	margin-bottom: -150%;
+}
+
+.cs-neg-bottom-margin-130 {
+	margin-bottom: -170%;
+}
+
+span.turn-white {
+	background-color: #fff;
+}
+
+span.turn-white:hover {
+	background-color: #e9e9e9;
+}
+
+.x-color {
+	color: #fff;
+}
+
+.x-color:hover {
+	color: rgba(255,255,255,0.5);
+}
+
+
+.cs-sticky-class {
+	right: 30px;
+	left: 20%;
+}
+
+/* flash only */
+.flash-display-height {
+	height: 450px;
+}
+
+/* do not edit below */
+
+.checkbox-option-custom {
+	appearance: none;
+	-webkit-appearance: none;
+	width: 20px;
+	height: 20px;
+	border: 1px solid #0066cc;
+}
+
+.checkbox-option-custom:focus {
+	border: 3px solid #0066cc;
+}
+
+.radio-option-custom {
+	appearance: none;
+	-webkit-appearance: none;
+	width: 20px;
+	height: 20px;
+	border-radius: 50%;
+	-webkit-border-radius: 50%;
+	border: 1px solid #0066cc;
+}
+
+.radio-option-custom:focus {
+	border: 3px solid #0066cc;
+}
+
+/* width in percentage */
+
+.csp-width-0 {
+ 	width: 0;
+}
+
+.csp-width-20 {
+ 	width: 20%;
+}
+
+.csp-width-30 {
+ 	width: 30%;
+}
+
+.csp-width-70 {
+ 	width: 70%;
+}
+
+.csp-width-80 {
+ 	width: 80%;
+}
+
+.csp-width-100 {
+ 	width: 100%;
+}
+
+/* slide mobile adjust only */
+
+.csp-width-5 {
+	width: 5%;
+}
+
+.csp-width-95 {
+	width: 95%;
+}
+
+.csp-width-10 {
+	width: 10%;
+}
+
+.csp-width-90 {
+	width: 90%;
+}
+
+.csp-width-x20 {
+	width: 20%;
+}
+
+.csp-width-x80 {
+	width: 80%;
+}
+
+
+/* width in pixels */
+
+.cs-width-5 {
+ 	width: 5px !important;
+}
+
+.cs-width-10 {
+ 	width: 10px !important;
+}
+
+.cs-width-15 {
+ 	width: 15px !important;
+}
+
+.cs-width-20 {
+ 	width: 20px !important;
+}
+
+.cs-width-25 {
+ 	width: 25px !important;
+}
+
+.cs-width-30 {
+ 	width: 30px !important;
+}
+
+.cs-width-35 {
+ 	width: 35px !important;
+}
+
+.cs-width-40 {
+ 	width: 40px !important;
+}
+
+.cs-width-45 {
+ 	width: 45px !important;
+}
+
+.cs-width-50 {
+ 	width: 50px !important;
+}
+
+.cs-width-55 {
+ 	width: 55px !important;
+}
+
+.cs-width-60 {
+ 	width: 60px !important;
+}
+
+.cs-width-70 {
+ 	width: 70px !important;
+}
+
+.cs-width-80 {
+ 	width: 80px !important;
+}
+
+.cs-width-90 {
+ 	width: 90px !important;
+}
+
+.cs-width-100 {
+ 	width: 100px !important;
+}
+
+.cs-width-120 {
+ 	width: 120px !important;
+}
+
+.cs-width-150 {
+ 	width: 150px !important;
+}
+
+.cs-width-180 {
+ 	width: 180px !important;
+}
+
+.cs-width-200 {
+ 	width: 200px !important;
+}
+
+.cs-width-250 {
+ 	width: 250px !important;
+}
+
+.cs-width-300 {
+ 	width: 300px !important;
+}
+
+.cs-width-350 {
+ 	width: 350px !important;
+}
+
+.cs-width-400 {
+ 	width: 400px !important;
+}
+
+.cs-width-450 {
+ 	width: 450px !important;
+}
+
+.cs-width-500 {
+ 	width: 500px !important;
+}
+
+.cs-width-600 {
+ 	width: 600px !important;
+}
+
+.cs-width-700 {
+ 	width: 700px !important;
+}
+
+.cs-width-800 {
+ 	width: 800px !important;
+}
+
+.cs-width-900 {
+ 	width: 900px !important;
+}
+
+.cs-width-1000 {
+ 	width: 1000px !important;
+}
+
+.cs-width-1200 {
+ 	width: 1200px !important;
+}
+
+.cs-width-1500 {
+ 	width: 1500px !important;
+}
+
+.cs-width-1700 {
+ 	width: 1700px !important;
+}
+
+.cs-width-2000 {
+ 	width: 2000px !important;
+}
+
+.cs-width-2500 {
+ 	width: 2500px !important;
+}
+
+.cs-width-3000 {
+ 	width: 3000px !important;
+}
+
+/* height in pixels */
+
+.cs-height-0 {
+ 	height: 0;
+}
+
+.cs-height-3 {
+ 	height: 3px !important;
+}
+
+.cs-height-5 {
+ 	height: 5px !important;
+}
+
+.cs-height-10 {
+ 	height: 10px !important;
+}
+
+.cs-height-15 {
+ 	height: 15px !important;
+}
+
+.cs-height-20 {
+ 	height: 20px !important;
+}
+
+.cs-height-25 {
+ 	height: 25px !important;
+}
+
+.cs-height-30 {
+ 	height: 30px !important;
+}
+
+.cs-height-35 {
+ 	height: 35px !important;
+}
+
+.cs-height-40 {
+ 	height: 40px !important;
+}
+
+.cs-height-45 {
+ 	height: 45px !important;
+}
+
+.cs-height-50 {
+ 	height: 50px !important;
+}
+
+.cs-height-55 {
+ 	height: 55px !important;
+}
+
+.cs-height-60 {
+ 	height: 60px !important;
+}
+
+.cs-height-70 {
+ 	height: 70px !important;
+}
+
+.cs-height-80 {
+ 	height: 80px !important;
+}
+
+.cs-height-90 {
+ 	height: 90px !important;
+}
+
+.cs-height-100 {
+ 	height: 100px !important;
+}
+
+.cs-height-120 {
+ 	height: 120px !important;
+}
+
+.cs-height-150 {
+ 	height: 150px !important;
+}
+
+.cs-height-180 {
+ 	height: 180px !important;
+}
+
+.cs-height-200 {
+ 	height: 200px !important;
+}
+
+.cs-height-250 {
+ 	height: 250px !important;
+}
+
+.cs-height-270 {
+ 	height: 270px !important;
+}
+
+.cs-height-280 {
+ 	height: 280px !important;
+}
+
+.cs-height-300 {
+ 	height: 300px !important;
+}
+
+.cs-height-350 {
+ 	height: 350px !important;
+}
+
+.cs-height-400 {
+ 	height: 400px !important;
+}
+
+.cs-height-450 {
+ 	height: 450px !important;
+}
+
+.cs-height-500 {
+ 	height: 500px !important;
+}
+
+.cs-height-600 {
+ 	height: 600px !important;
+}
+
+.cs-height-700 {
+ 	height: 700px !important;
+}
+
+.cs-height-800 {
+ 	height: 800px !important;
+}
+
+.cs-height-900 {
+ 	height: 900px !important;
+}
+
+.cs-height-1000 {
+ 	height: 1000px !important;
+}
+
+.cs-height-1200 {
+ 	height: 1200px !important;
+}
+
+.cs-height-1500 {
+ 	height: 1500px !important;
+}
+
+.cs-height-2000 {
+ 	height: 2000px !important;
+}
+
+
+@media screen and (max-width: 599px) {
+
+	.csp-width-20 {
+ 		width: 80%;
+	}
+
+	.csp-width-80 {
+	 	width: 20%;
+	}
+
+	.csp-width-30 {
+	 	width: 70%;
+	}
+
+	.csp-width-70 {
+	 	width: 30%;
+	}
+	
+	.flash-display-height {
+		height: 150px;
+	}
+
+	/* slide mobile adjust only */
+
+	.csp-width-5 {
+		width: 10%;
+	}
+
+	.csp-width-95 {
+		width: 90%;
+	}
+
+	.csp-width-10 {
+		width: 20%;
+	}
+
+	.csp-width-90 {
+		width: 80%;
+	}
+	
+	.csp-width-x20 {
+		width: 40%;
+	}
+
+	.csp-width-x80 {
+		width: 60%;
+	}
+}
+
+@media screen and (device-width: 599px) {
+
+	.csp-width-20 {
+ 		width: 80%;
+	}
+
+	.csp-width-80 {
+	 	width: 20%;
+	}
+
+	.csp-width-30 {
+	 	width: 70%;
+	}
+
+	.csp-width-70 {
+	 	width: 30%;
+	}
+	
+	.flash-display-height {
+		height: 150px;
+	}
+
+	/* slide mobile adjust only */
+
+	.csp-width-5 {
+		width: 10%;
+	}
+
+	.csp-width-95 {
+		width: 90%;
+	}
+
+	.csp-width-10 {
+		width: 20%;
+	}
+
+	.csp-width-90 {
+		width: 80%;
+	}
+	
+	.csp-width-x20 {
+		width: 40%;
+	}
+
+	.csp-width-x80 {
+		width: 60%;
+	}
+}
+

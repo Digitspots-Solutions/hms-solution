@@ -1,0 +1,174 @@
+<form action="" method="post" autocomplete="off" onsubmit="xframeenablescroll(); onsubmt('submitbutton','Submitting..')">
+	<input type="hidden" name="uri" value="insert-stock-item">
+	<div class="xform bottom-push-15">
+		<label>Item Name</label>
+		<input type="text" name="wgtf1" id="wgtf1" placeholder="Enter here e.g Chicken Wings" maxlength="150" class="nopads no-back-black" onkeypress="titleCase(this.value,this.id)" required="required">
+	</div>
+	<div class="xform bottom-push-15">
+		<label>Category & Sub-Category</label>
+		<div class="sided-box">
+			<ul>
+				<li class="nc-width-50 right-pull-5">
+					<select name="wgtf2" id="wgtf2" class="nopads no-back-black" onclick="wgets(1,this.id)" onchange="wgetsub(1,this.value,'wgtf3')" required="required">
+						<option value="" selected="selected">Category</option>
+					</select>
+				</li>
+				<li class="nc-width-50 left-pull-5">
+					<select name="wgtf3" id="wgtf3" class="nopads no-back-black" required="required">
+						<option value="" selected="selected">Sub-Category</option>
+					</select>
+					<input type="hidden" name="wgtf4" id="wgtf4" value="0">
+				</li>
+				<!--<li class="b3x">
+					<select name="wgtf4" id="wgtf4" class="nopads no-back-black" onclick="wgets(2,this.id)">
+						<option value="" selected="selected">Group</option>
+					</select>
+				</li>-->
+				<li>
+				</li>
+			</ul>
+		</div>
+	</div>
+	<div class="noshow bottom-push-15">
+		<label>Cost Center Item</label>
+		<select name="wgtf5" id="wgtf5" class="nopads no-back-black" required="required">
+			<option value="Yes">Yes</option>
+			<option value="No">No</option>
+		</select>
+	</div>
+	<div class="xform bottom-push-15">
+		<label>Buying Unit</label>
+		<select name="wgtf6" id="wgtf6" class="nopads no-back-black" onclick="poparry(this.id)" required="required">
+			<option value="" selected="selected">Choose?</option>
+		</select>
+		<div class="top-push-7">
+			<input type="number" min="1" name="wgtf7" id="wgtf7" placeholder="Enter number of pieces for buying unit?" required>
+		</div>
+	</div>
+	<div class="xform bottom-push-15">
+		<label>Selling Unit</label>
+		<select name="wgtf8" id="wgtf8" class="nopads no-back-black" onclick="poparry(this.id)">
+			<option value="" selected="selected">Choose?</option>
+		</select>
+		<div class="top-push-7">
+			<input type="number" min="1" name="wgtf8a" id="wgtf8a" placeholder="Enter number of selling unit in one piece or each?" required>
+		</div>
+	</div>
+	<div class="xform bottom-push-15">
+		<label>Minimum Stock</label>
+		<input type="number" min="1" name="wgtf9" id="wgtf9" placeholder="Enter here" class="nopads no-back-black" required="required">
+	</div>
+	<div class="xform bottom-push-15">
+		<label>Maximum Stock</label>
+		<input type="number" min="1" name="wgtf10" id="wgtf10" placeholder="Enter here" class="nopads no-back-black" required="required">
+	</div>
+	<div class="xform bottom-push-15">
+		<label>Expiry Type</label>
+		<input type="radio" name="wgtf11" id="wgtf11a" value="No" required="required" onclick="chgclass('indays-x','noshow left-pull-10'); chgclass('indate-x','noshow left-pull-10'); formNonrequired('indate'); formNonrequired('indays')"> Never Expire &nbsp;&nbsp; <!--<input type="radio" name="wgtf11" id="wgtf11" value="Yes" required="required" onclick="chgclass('indays-x','noshow left-pull-10'); chgclass('indate-x','block-element left-pull-10'); formrequired('indate'); formnotrequired('indays')"> Expiry Date &nbsp;&nbsp;--> <input type="radio" name="wgtf11" id="wgtf11b" value="Yes" required="required" onclick="chgclass('indays-x','block-element left-pull-10'); chgclass('indate-x','noshow left-pull-10'); formrequired('indays'); formnotrequired('indate')"> Expires in
+		<div class="top-push-7">
+			<div id="indays-x" class="noshow left-pull-10"><h4 class="large nobold black-font">Day expiring autofill</h4><input type="text" name="indays" pattern="\d*" placeholder="Enter number of days?" class="nopads no-back-black" value="365000" readonly></div>
+			<div id="indate-x" class="noshow left-pull-10"><input type="text" name="indate" id="indate" placeholder="Select date?" onfocus="textodate(this.id)" class="nopads no-back-black"></div>
+		</div>
+	</div>
+	<div id="item-cost-price" class="xform bottom-push-15">
+		<label>Item Cost Price</label>
+		<input type="number" min="1" step="any" name="wgtf12" id="wgtf12" placeholder="Enter here e.g 1000" class="nopads no-back-black" required="required">
+	</div>
+	<div class="top-push-50 motion">
+		<input type="hidden" name="datau" id="datau" value="0">
+		<input type="submit" id="submitbutton" name="submitbutton" value="Add to List" class="nc-width-100 submit blue-white-state  nunito-semibold rounded-button anchor letter-spacing-2 nodefault-appearance">
+	</div>
+</form>
+
+
+<script>
+
+	function wgets(id,ls) {
+	
+		var datalist = document.getElementById(ls);
+		
+		if(datalist.value == null || datalist.value == 'undefined' || datalist.value == '') {
+			
+			var fetchMode = '<option value="">Fetching..</option>';
+			writeObjheader(ls,fetchMode);
+
+			if(id == 1) { sqldatastring.sql = "SELECT * FROM stock_category_tbl WHERE deletedata=0"; }
+			else if(id == 2) { sqldatastring.sql = "SELECT * FROM stock_itemgroup_tbl WHERE deletedata=0"; }
+
+			sqldataQuery(wgtparam,sqldatastring);
+
+			function wgtparam(response) {
+				var data = JSON.parse(response);
+				var i, lshtml = '', dl = data.datastring;
+
+				lshtml += '<option value="" selected="selected">Choose?</option>';
+				
+				if(id == 1) {
+					for(i=0; i<dl.length; i++) {
+						lshtml += '<option value="'+dl[i].id+'">'+dl[i].category+'</option>';
+					}
+				}
+
+				if(id == 2) {
+					for(i=0; i<dl.length; i++) {
+						lshtml += '<option value="'+dl[i].id+'">'+dl[i].groupname+'</option>';
+					}
+				}
+
+				writeObjheader(ls,lshtml);
+			}
+		}
+	}
+
+
+	function wgetsub(id,qr,ls) {
+		
+		var fetchMode = '<option value="">Fetching..</option>';
+		writeObjheader(ls,fetchMode);
+
+		if(id == 1) { sqldatastring.sql = "SELECT * FROM stock_subcategory_tbl WHERE categoryid="+qr+" AND deletedata=0"; }
+		else if(id == 2) { }
+
+		sqldataQuery(wgtparam,sqldatastring);
+
+		function wgtparam(response) {
+			var data = JSON.parse(response);
+			var i, lshtml = '', dl = data.datastring;
+			
+			lshtml += '<option value="" selected="selected">Choose?</option>';
+
+			if(id == 1) {
+				for(i=0; i<dl.length; i++) {
+					lshtml += '<option value="'+dl[i].id+'">'+dl[i].subcategory+'</option>';
+				}
+			}
+
+			writeObjheader(ls,lshtml);
+		}
+		
+	}
+
+	function poparry(id) {
+		
+		var wctr = document.getElementById(id);
+		
+		if(wctr.value == null || wctr.value == 'undefined' || wctr.value == '') {
+
+			arrytokens.arryname = "uoms";
+			arrytokens.type = 2;
+
+			writeObjheader(id,'<option>fetching..</option>');
+			
+			wgtarry(wgtarrypop,arrytokens);
+			
+			function wgtarrypop(response) {
+				var ajaxresult = JSON.parse(response);
+				var i,select,wdata = ajaxresult;
+				select = '<option value="" selected>Choose?</option>';
+				for(i=0; i < wdata.length; i++) { select += '<option value="'+wdata[i].ky+'">'+wdata[i].vl+'</option>'; }
+				writeObjheader(id,select);
+			}
+		}
+	}
+
+</script>

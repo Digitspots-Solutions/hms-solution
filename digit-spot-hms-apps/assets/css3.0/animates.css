@@ -1,0 +1,205 @@
+@keyframes fade {
+    from { opacity: 1.0; }
+    50% { opacity: 0.2; }
+    to { opacity: 1.5; }
+}
+ 
+@-webkit-keyframes fade {
+    from { opacity: 1.0; }
+    50% { opacity: 0.2; }
+    to { opacity: 1.5; }
+}
+
+@keyframes typo {
+    from { background-color: transparent; }
+    50% { background-color: #f9f9f9; }
+    to { background-color: transparent; }
+}
+ 
+@-webkit-keyframes typo {
+    from { background-color: transparent; }
+    50% { background-color: #f9f9f9; }
+    to { background-color: transparent; }
+}
+
+@keyframes jumper {
+    from { position: absolute; top: 0; bottom: 20px; left: 15%; }
+    50% { position: absolute; top: 5px; bottom: 10px; left: 15%; }
+    to { position: absolute; top: 0; bottom: 30px; left: 15%; }
+}
+ 
+@-webkit-keyframes jumper {
+    from { position: absolute; bottom: 20px; }
+    50% { position: absolute; bottom: 10px; }
+    to { position: absolute; bottom: 30px; }
+}
+
+@keyframes bounce {
+    from { position: absolute; top: 5px; left: 48%; }
+    50% { position: absolute; top: 20px; left: 48%; }
+    to { position: absolute; top: 0; left: 48%; }
+}
+ 
+@-webkit-keyframes bounce {
+    from { position: absolute; top: 5px; left: 48%; }
+    50% { position: absolute; top: 20px; left: 48%; }
+    to { position: absolute; top: 0; left: 48%; }
+}
+ 
+.blink {
+    animation:fade 3000ms infinite;
+    -webkit-animation:fade 3000ms infinite;
+}
+
+.push {
+  animation:typo 1000ms infinite;
+  -webkit-animation:typo 1000ms infinite;
+}
+
+.djump {
+  animation:jumper 3000ms infinite;
+  -webkit-animation:jumper 3000ms infinite;
+}
+
+.dbounce {
+  animation:bounce 1000ms infinite;
+  -webkit-animation:bounce 1000ms infinite;
+}
+
+
+@keyframes lrSlide {
+  0% {
+    width: 2px;
+    height: 3px;
+    background-color: #000;  
+  }
+  50% {
+    width: 65px;
+    height: 3px;
+    background-color: #000; 
+  }
+  100% {
+    width: 20px;
+    height: 3px;
+    background-color: #fff;
+  }
+}
+
+@-webkit-keyframes lrSlide {
+  0% {
+    width: 2px;
+    height: 3px;
+    background-color: #000;  
+  }
+  50% {
+    width: 65px;
+    height: 3px;
+    background-color: #000; 
+  }
+  100% {
+    width: 20px;
+    height: 3px;
+    background-color: #fff;
+  }
+}
+
+.progressline {
+  animation:lrSlide 1000ms infinite;
+  -webkit-animation:lrSlide 1000ms infinite;
+}
+
+
+@keyframes rcircle {
+  0% {
+    transform: rotate(0deg);  
+  }
+  50% {
+    transform: rotate(90deg); 
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+@-webkit-keyframes rcircle {
+  0% {
+     -webkit-transform: rotate(0deg);
+  }
+  50% {
+    -webkit-transform: rotate(90deg);  
+  }
+  100% {
+    -webkit-transform: rotate(360deg);  
+  }
+}
+
+@-moz-keyframes rcircle {
+  0% {
+     -moz-transform: rotate(0deg);
+  }
+  50% {
+    -moz-transform: rotate(90deg);  
+  }
+  100% {
+    -moz-transform: rotate(360deg);  
+  }
+}
+
+.loading {
+  animation: rcircle 0.6s linear infinite;
+  -webkit-animation: rcircle 0.6s linear infinite;
+  -webkit-backface-visibility: hidden;
+  -moz-animation: rcircle 0.6s linear infinite;
+  
+  width: 30px; height: 30px; border: 5px solid rgba(102,163,255,0.5); 
+  border-radius: 50%; -webkit-border-radius: 50%; -moz-border-radius: 50%; 
+  padding: 2px; opacity: 0.2; 
+  border-left-color: #663399; 
+  border-top-color: #663399;
+}
+
+
+@keyframes flc {
+    from { transform: scale(1); opacity: 1.0; }
+    50% { transform: scale(0.5); opacity: 0.2; }
+    to { transform: scale(1); opacity: 1.5; }
+}
+ 
+@-webkit-keyframes flc {
+    from { transform: scale(1); opacity: 1.0; }
+    50% { transform: scale(0.5); opacity: 0.2; }
+    to { transform: scale(1); opacity: 1.5; }
+}
+
+@keyframes mc {
+    from { transform: scale(1); opacity: 1.0; }
+    50% { transform: scale(0.5); opacity: 0.2; }
+    to { transform: scale(1.5); opacity: 1.5; }
+}
+ 
+@-webkit-keyframes mc {
+    from { transform: scale(1); opacity: 1.0; }
+    50% { transform: scale(0.5); opacity: 0.2; }
+    to { transform: scale(1.5); opacity: 1.5; }
+}
+
+.first-last-circle {
+  animation:flc 1000ms infinite;
+  -webkit-animation:flc 1000ms infinite;
+}
+
+.middle-circle {
+  animation:mc 1000ms infinite;
+  -webkit-animation:mc 1000ms infinite;
+}
+
+
+div.zoomer div {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  background-color: #ffc253;
+  margin: 0 10px 0 0;
+  display: inline-flex;
+}

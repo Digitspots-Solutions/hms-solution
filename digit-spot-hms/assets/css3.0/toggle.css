@@ -1,0 +1,132 @@
+/* Islam Stay Template, Copyright 2018 */
+/* toggle button for on/off switch */
+
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 50px;
+  height: 25px;
+  outline: none;
+  user-select: none;
+  -webkit-tap-highlight-color: transparent;
+  -webkit-touch-callout: none !important;
+}
+
+/* Hide default HTML checkbox */
+
+.switch input {
+  display:none;
+  outline: none;
+  user-select: none;
+}
+
+/* The slider */
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ccc;
+  -webkit-transition: .4s;
+  transition: .4s;
+  user-select: none;
+  -webkit-tap-highlight-color: transparent;
+  -webkit-touch-callout: none !important;
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 17px;
+  width: 17px;
+  left: 6px;
+  bottom: 4px;
+  background-color: white;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+.slider-on:before {
+  position: absolute;
+  content: "";
+  height: 17px;
+  width: 17px;
+  left: 32px;
+  bottom: 4px;
+  background-color: white;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+input:checked + .slider {
+  background-color: #2196F3;
+}
+
+input:checked + .slider-on {
+  background-color: #ccc;
+}
+
+.slider-on {
+  background-color: #2196F3;
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  -webkit-transition: .4s;
+  transition: .4s;
+  user-select: none;
+}
+
+input:focus + .slider {
+  box-shadow: 0 0 1px #2196F3;
+  outline: none;
+  user-select: none;
+}
+
+input:focus + .slider-on {
+  box-shadow: 0 0 1px #2196F3;
+  outline: none;
+  user-select: none;
+}
+
+input:checked + .slider:before {
+  -webkit-transform:translateX(18px);
+  -ms-transform: translateX(18px);
+  transform: translateX(18px);
+  user-select: none;
+  outline: none;
+  left: 9px;
+}
+
+input:checked + .slider-on:before {
+  -webkit-transform:translateX(-18px);
+  -ms-transform: translateX(-18px);
+  transform: translateX(-18px);
+  user-select: none;
+  outline: none;
+  left: 29px;
+}
+
+
+
+/* Rounded sliders */
+
+.slider.round {
+  border-radius: 30px;
+}
+
+.slider.round:before {
+  border-radius: 50%;
+}
+
+.slider-on.round {
+  border-radius: 30px;
+}
+
+.slider-on.round:before {
+  border-radius: 50%;
+}

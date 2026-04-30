@@ -1,0 +1,66 @@
+/* additional custom style */
+
+u.annotation {
+  text-decoration: blue wavy underline;
+}
+
+.x-translate-hide-left {
+    transform: translateX(-100%);
+}
+
+.x-translate-hide {
+    transform: translateX(100%);
+}
+
+.x-translate-show {
+    transform: translateX(0%);
+}
+
+.y-translate-hide {
+    transform: translateY(100%);
+}
+
+.y-translate-show {
+    transform: translateY(0%);
+}
+
+.drop-menu-x-slate {
+    transform: translateX(-50%);
+}
+
+
+a.noselect {
+    -webkit-tap-highlight-color: rgba(0,0,0,0.3);
+    -webkit-tap-highlight-color: transparent;
+    -webkit-touch-callout: none !important;
+    -webkit-user-select: none !important;
+    -khtml-user-select: none !important;
+    -moz-user-select: none !important;
+    user-select: none !important;
+}
+
+.nomblclickbg {
+    -webkit-tap-highlight-color: transparent;
+    -webkit-touch-callout: none !important;
+    -webkit-user-select: none !important;
+    -khtml-user-select: none !important;
+    -moz-user-select: none !important;
+    user-select: none !important;
+}
+
+
+/* ------------------------------------------------------------------------------ */
+
+.startup-theme {
+    background-image: url('../theme/hms.jpg');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.pattern {
+    background-image: url('../theme/pattern.jpeg');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}

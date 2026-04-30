@@ -1,0 +1,58 @@
+/* Scroll Bar Master Styling Starts Here */
+/* All comments can be freely removed from the css */
+
+/* <div id='mycustomscroll' class='flexcroll'></div>*/
+
+#mycustomscroll {
+	
+	display: block;
+	height: 100%;
+	overflow: auto;
+	
+	/* IE overflow fix, position must be relative or absolute*/
+	
+	position: relative;
+	/*background-color: #fff;*/
+	/*padding: 15px;*/
+}
+
+.scrollgeneric {
+	line-height: 1px;
+	font-size: 1px;
+	position: absolute;
+	top: 0; left: 0;
+}
+
+.vscrollerbase {
+	width: 7px;
+	background-color: none;
+}
+
+.vscrollerbar {
+	width: 7px;
+	background-color: rgba(0,0,102,0.3);
+	border-radius: 7px;
+	-webkit-border-radius: 7px;
+}
+
+.vscrollerbar:hover {
+	background-color: rgba(0,0,0,0.5);
+}
+
+.hscrollerbase {
+	height: 10px;
+	background-color: #4d4d4d;
+}
+
+.hscrollerbar {
+	height: 10px;
+	background-color: rgba(0,0,0,0.5);
+}
+
+.scrollerjogbox {
+	width: 10px;
+	height: 10px;
+	top: auto; left: auto;
+	bottom: 0px; right: 0px;
+	background-color: gray;
+}

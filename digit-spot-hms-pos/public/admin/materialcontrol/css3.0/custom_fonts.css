@@ -1,0 +1,142 @@
+/* css font file */
+/* Ibat Informatics css library */
+/* Copyright 2019 */
+
+@font-face{font-family:'FontAwesome'; src:url('fonts/fontawesome-webfont.eot?v=4.2.0');src:url('fonts/fontawesome-webfont.eot?#iefix&v=4.2.0') format('embedded-opentype'),url('fonts/fontawesome-webfont.woff?v=4.2.0') format('woff'),url('fonts/fontawesome-webfont.ttf?v=4.2.0') format('truetype'),url('fonts/fontawesome-webfont.svg?v=4.2.0#fontawesomeregular') format('svg'); }
+@font-face{ font-family: XBall; src:url('fonts/XBall.ttf') format('truetype'); }
+@font-face{ font-family: EaDesigner; src:url('fonts/EaDesignerRegular.ttf') format('truetype'); }
+@font-face{ font-family: Gadaj; src:url('fonts/gadaj_font.otf') format('opentype'); }
+@font-face{ font-family: galapogo; src:url('fonts/galapogo.ttf') format('truetype'); }
+@font-face{ font-family: Gamelan; src:url('fonts/Gamelan.ttf') format('truetype'); }
+@font-face{ font-family: Gamoda; src:url('fonts/Gamoda.ttf') format('truetype'); }
+@font-face{ font-family: Courgette; src:url('fonts/Courgette-Regular.ttf') format('truetype'); }
+@font-face{ font-family: Baar Sophia; src:url('fonts/baar-sophia.ttf') format('truetype'); }
+@font-face{ font-family: San Frediano; src:url('fonts/san-frediano-light.ttf') format('truetype'); }
+@font-face{ font-family: San Frediano bold; src:url('fonts/san-frediano-bold.ttf') format('truetype'); }
+@font-face{ font-family: Sabandija ffp; src:url('fonts/Sabandija-font-ffp.otf') format('truetype'); }
+@font-face{ font-family: Century Gothic; src:url('fonts/CenturyGothic.ttf') format('truetype'); }
+@font-face{ font-family: Century Gothic Bold; src:url('fonts/GOTHICB.TTF') format('truetype'); }
+@font-face{ font-family: Salutino; src:url('fonts/ATOSalutino.ttf') format('truetype'); }
+@font-face{ font-family: Haydon Brush PERSONAL USE; src:url('fonts/HaydonBrush.ttf') format('truetype'); }
+@font-face{ font-family: Safir Script PERSONAL USE ONLY; src:url('fonts/SafirScript.ttf') format('truetype'); }
+@font-face{ font-family: Eastman Trial Black; src:url('fonts/EastmanTrial-Black.otf') format('opentype'); }
+@font-face{ font-family: Harijadi; src:url('fonts/Harijadi.otf') format('opentype'); }
+@font-face{ font-family: bubbleboddy light; src:url('fonts/Bobbleboddy_light.ttf') format('truetype'); }
+@font-face{ font-family: bubbleboddy; src:url('fonts/Bobbleboddy.ttf') format('truetype'); }
+@font-face{ font-family: Market Deco; src:url('fonts/Market_Deco.ttf') format('truetype'); }
+@font-face{ font-family: Nunito Black; src:url('fonts/Nunito-Black.ttf') format('truetype'); }
+@font-face{ font-family: Nunito Regular; src:url('fonts/Nunito-Regular.ttf') format('truetype'); }
+@font-face{ font-family: Nunito Light; src:url('fonts/Nunito-Light.ttf') format('truetype'); }
+@font-face{ font-family: Nunito SemiBold; src:url('fonts/Nunito-SemiBold.ttf') format('truetype'); }
+@font-face{ font-family: Poppins Black; src:url('fonts/poppinsblack.ttf') format('truetype'); }
+@font-face{ font-family: Nimbus Mono; src:url('fonts/NimbusMono-Regular.otf') format('opentype'); }
+
+
+
+.cmd-font {
+	font-family: Nimbus Mono !important;
+}
+
+.default-text-font {
+	font-family: Century Gothic !important;
+}
+
+.default-text-font-bold {
+	font-family: Century Gothic Bold !important;
+}
+
+.nunito-bold {
+	font-family: Nunito Black !important;
+}
+
+.nunito-semibold {
+	font-family: Nunito SemiBold !important;
+}
+
+.nunito-regular {
+	font-family: Nunito Regular !important;
+}
+
+.nunito-light {
+	font-family: Nunito Light !important;
+}
+
+.font-header-salutino {
+	font-family: 'Salutino' !important;
+}
+
+.font-header-xball {
+	font-family: 'XBall' !important;
+}
+
+.font-header-eadesigner {
+	font-family: 'EaDesigner' !important;
+}
+
+.font-header-galapogo {
+	font-family: 'galapogo' !important;
+}
+
+.font-header-sabandija {
+	font-family: 'Sabandija ffp' !important;
+}
+
+.font-subtitle-gadaj {
+	font-family: 'Gadaj' !important;
+}
+
+.font-subtitle-gamelan {
+	font-family: 'Gamelan' !important;
+}
+
+.font-textquote-courgette {
+	font-family: 'Courgette' !important;
+}
+
+.font-textquote-baarsophia {
+	font-family: 'Baar Sophia' !important;
+}
+
+.font-textquote-sanfrediano {
+	font-family: 'San Frediano' !important;
+}
+
+.font-textquote-sanfrediano-bold {
+	font-family: 'San Frediano Bold' !important;
+}
+
+.font-signature {
+	font-family: 'Haydon Brush PERSONAL USE' !important;
+}
+
+.font-comic-caption-bold {
+	font-family: 'Safir Script PERSONAL USE ONLY' !important;
+}
+
+.font-big-bold {
+	font-family: 'Eastman Trial Black' !important;
+}
+
+.font-big-bold2 {
+	font-family: 'Poppins Black' !important;
+}
+
+.font-stylish-letters {
+	font-family: 'Harijadi' !important;
+}
+
+.font-stylish-letters2 {
+	font-family: 'Gamoda' !important;
+}
+
+.font-bubble-bold {
+	font-family: 'bubbleboddy' !important;
+}
+
+.font-bubble-light {
+	font-family: 'bubbleboddy light' !important;
+}
+
+.font-board-letter {
+	font-family: 'Market Deco' !important;
+}

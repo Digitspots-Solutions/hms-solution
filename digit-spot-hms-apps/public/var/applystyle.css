@@ -1,0 +1,57 @@
+/* css file */
+
+#modal-box,#process-bar {
+	display: none;
+}
+
+#modal-box-1,#modal-box-2,#modal-box-3,#modal-box-4 {
+	display: none;
+}
+
+.dashboard-cycle-size {
+	width: 70px;
+	height: 70px;
+}
+
+.dashboard-cycle-xsize {
+	width: 60px;
+	height: 60px;
+}
+
+.dashboard-cycle-xxsize {
+	width: 40px;
+	height: 40px;
+}
+
+.c-imagebox {
+	width: 200px;
+	height: 200px;
+}
+
+.indicator {
+	width: 14px;
+	height: 14px;
+	border: 1px solid #009933;
+	background-color: #fff;
+	padding: 1px;
+}
+
+.indicator span {
+	width: 10px;
+	height: 10px;
+	background-color: #009933;
+}
+
+.indicator-n {
+	width: 14px;
+	height: 14px;
+	border: 1px solid #ff0000;
+	background-color: #fff;
+	padding: 1px;
+}
+
+.indicator-n span {
+	width: 10px;
+	height: 10px;
+	background-color: #ff0000;
+}

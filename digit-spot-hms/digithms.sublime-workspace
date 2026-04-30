@@ -1,0 +1,2113 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"_SE",
+				"$_SESSION\tSESSION['…']"
+			],
+			[
+				"emp",
+				"empty()"
+			],
+			[
+				"block",
+				"block-element"
+			],
+			[
+				"cla",
+				"class"
+			],
+			[
+				"cell",
+				"cellspacing"
+			],
+			[
+				"dark",
+				"dark-black-font"
+			],
+			[
+				"is",
+				"is_array()"
+			],
+			[
+				"op",
+				"option"
+			],
+			[
+				"dmsan",
+				"dmsanbold-font"
+			],
+			[
+				"bloc",
+				"block-element"
+			],
+			[
+				"nc-",
+				"nc-height-100"
+			],
+			[
+				"li",
+				"li"
+			],
+			[
+				"st",
+				"statement"
+			],
+			[
+				"jso",
+				"json_encode()"
+			],
+			[
+				"array",
+				"array()"
+			],
+			[
+				"pay",
+				"paymode"
+			],
+			[
+				"stat",
+				"statement"
+			],
+			[
+				"print",
+				"print_r()"
+			],
+			[
+				"tr",
+				"true"
+			],
+			[
+				"json",
+				"json_encode()"
+			],
+			[
+				"di",
+				"display"
+			],
+			[
+				"js",
+				"json_encode()"
+			],
+			[
+				"error",
+				"error_log()"
+			],
+			[
+				"ero",
+				"error_log()"
+			],
+			[
+				"req",
+				"request"
+			],
+			[
+				"prin",
+				"print_r()"
+			],
+			[
+				"in",
+				"input"
+			],
+			[
+				"clas",
+				"className"
+			],
+			[
+				"o",
+				"onclick"
+			],
+			[
+				"cl",
+				"className"
+			],
+			[
+				"class",
+				"className"
+			],
+			[
+				"fun",
+				"function"
+			],
+			[
+				"cel",
+				"cellspacing"
+			],
+			[
+				"em",
+				"empty"
+			],
+			[
+				"err",
+				"error_log()"
+			],
+			[
+				"ite",
+				"item_id"
+			],
+			[
+				"empt",
+				"empty()"
+			],
+			[
+				"int",
+				"intpAmount"
+			],
+			[
+				"inner",
+				"innerText"
+			],
+			[
+				"get",
+				"getstock"
+			],
+			[
+				"cons",
+				"console"
+			],
+			[
+				"mode",
+				"modeId"
+			],
+			[
+				"inn",
+				"innerText"
+			],
+			[
+				"box",
+				"box-border-thick-left"
+			],
+			[
+				"text",
+				"text-line-spacing-1"
+			],
+			[
+				"pop",
+				"center-pop"
+			],
+			[
+				"inde",
+				"indexOf"
+			],
+			[
+				"top-pul",
+				"top-pull-7"
+			],
+			[
+				"bas",
+				"basket"
+			],
+			[
+				"scroll",
+				"scrollTop"
+			],
+			[
+				"new",
+				"newitem"
+			],
+			[
+				"ft-",
+				"ft-ssize"
+			],
+			[
+				"add",
+				"addEventListener"
+			],
+			[
+				"page",
+				"pagenation"
+			],
+			[
+				"onc",
+				"onclick"
+			],
+			[
+				"typ",
+				"type"
+			],
+			[
+				"app",
+				"appendChild"
+			],
+			[
+				"ne",
+				"newText"
+			],
+			[
+				"ins",
+				"inserted"
+			],
+			[
+				"align",
+				"alignct"
+			],
+			[
+				"on",
+				"onclick"
+			],
+			[
+				"Bi",
+				"Billing"
+			],
+			[
+				"e",
+				"endif"
+			],
+			[
+				"float",
+				"float-right"
+			],
+			[
+				"top",
+				"top-pull-10"
+			],
+			[
+				"db",
+				"dbTid"
+			],
+			[
+				"stri",
+				"stripslashes()"
+			],
+			[
+				"onch",
+				"onchange"
+			],
+			[
+				"patient",
+				"patient_number"
+			],
+			[
+				"Expir",
+				"Expiration"
+			],
+			[
+				"alig",
+				"alignct"
+			],
+			[
+				"href",
+				"href"
+			],
+			[
+				"defa",
+				"default-text-font-bold"
+			],
+			[
+				"place",
+				"placeholder"
+			],
+			[
+				"data-s",
+				"data-switchon"
+			],
+			[
+				"con",
+				"container"
+			],
+			[
+				"tex",
+				"textarea"
+			],
+			[
+				"cont",
+				"container"
+			],
+			[
+				"wri",
+				"write-tool"
+			],
+			[
+				"cre",
+				"createElement"
+			],
+			[
+				"hid",
+				"hidden"
+			],
+			[
+				"use",
+				"useval"
+			],
+			[
+				"for",
+				"foreach\tforeach …"
+			],
+			[
+				"box-",
+				"box-border-thick-bottom"
+			],
+			[
+				"ser",
+				"server_get_date"
+			],
+			[
+				"def",
+				"default"
+			],
+			[
+				"is_",
+				"is_array()"
+			],
+			[
+				"dn",
+				"dmsan-font"
+			],
+			[
+				"cs-",
+				"cs-width-200"
+			],
+			[
+				"inne",
+				"innerHTML"
+			],
+			[
+				"fe",
+				"feedIn"
+			],
+			[
+				"blo",
+				"block-element"
+			],
+			[
+				"str_Re",
+				"str_replace()"
+			],
+			[
+				"DOMI",
+				"DOMAIN"
+			],
+			[
+				"type",
+				"type"
+			],
+			[
+				"acc",
+				"accommodation"
+			],
+			[
+				"onkey",
+				"onkeyup"
+			],
+			[
+				"c",
+				"class"
+			],
+			[
+				"u",
+				"ul\tHTML - Unordered list"
+			],
+			[
+				"substr",
+				"substr_replace()"
+			],
+			[
+				"ailm",
+				"ailments"
+			],
+			[
+				"dis",
+				"diseases"
+			],
+			[
+				"ac",
+				"accomodation"
+			],
+			[
+				"serv",
+				"server_get_time"
+			],
+			[
+				"te",
+				"textarea"
+			],
+			[
+				"ENA",
+				"ENABLE-APP-EXIT"
+			],
+			[
+				"do",
+				"doctor_avail"
+			],
+			[
+				"is_a",
+				"is_array()"
+			],
+			[
+				"dle",
+				"deletedata"
+			],
+			[
+				"nos",
+				"noselect"
+			],
+			[
+				"dm",
+				"dmsanbold-font"
+			],
+			[
+				"xh",
+				"xhtml"
+			],
+			[
+				"blok",
+				"block-element"
+			],
+			[
+				"right",
+				"right-push-5"
+			],
+			[
+				"array_key",
+				"array_key_exists()"
+			],
+			[
+				"array_ke",
+				"array_key_exists()"
+			],
+			[
+				"f",
+				"function"
+			],
+			[
+				"data-tr",
+				"data-trigger"
+			],
+			[
+				"t",
+				"true"
+			],
+			[
+				"left",
+				"left-push-10"
+			],
+			[
+				"sele",
+				"selected"
+			],
+			[
+				"exp",
+				"explode()"
+			],
+			[
+				"fore",
+				"foreach\tforeach …"
+			],
+			[
+				"isse",
+				"isset()"
+			],
+			[
+				"ft",
+				"ft-ssize"
+			],
+			[
+				"bo",
+				"box-border-thick"
+			],
+			[
+				"mn",
+				"mini-rounded-button"
+			],
+			[
+				"expl",
+				"explode()"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "includes/php_paths.php",
+			"settings":
+			{
+				"buffer_size": 7738,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			},
+			"undo_stack":
+			[
+				[
+					3,
+					1,
+					"insert",
+					{
+						"characters": ";"
+					},
+					"AQAAAJQIAAAAAAAAlQgAAAAAAAAAAAAA",
+					"BgAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADwvwAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAJQIAAAAAAAAlAgAAAAAAAAAAAAAAADwvw"
+				]
+			]
+		},
+		{
+			"file": "login/shift_counter.php",
+			"settings":
+			{
+				"buffer_size": 12989,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			},
+			"undo_stack":
+			[
+				[
+					5,
+					1,
+					"insert",
+					{
+						"characters": "?ap"
+					},
+					"AwAAAPkMAAAAAAAA+gwAAAAAAAAAAAAA+gwAAAAAAAD7DAAAAAAAAAAAAAD7DAAAAAAAAPwMAAAAAAAAAAAAAA",
+					"AwAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAPkMAAAAAAAA+QwAAAAAAAAAAAAAAADwvw"
+				],
+				[
+					6,
+					1,
+					"insert",
+					{
+						"characters": "s="
+					},
+					"AgAAAPwMAAAAAAAA/QwAAAAAAAAAAAAA/QwAAAAAAAD+DAAAAAAAAAAAAAA",
+					"AwAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAPwMAAAAAAAA/AwAAAAAAAAAAAAAAADwvw"
+				],
+				[
+					7,
+					5,
+					"left_delete",
+					null,
+					"BQAAAP0MAAAAAAAA/QwAAAAAAAABAAAAPfwMAAAAAAAA/AwAAAAAAAABAAAAc/sMAAAAAAAA+wwAAAAAAAABAAAAcPoMAAAAAAAA+gwAAAAAAAABAAAAYfkMAAAAAAAA+QwAAAAAAAABAAAAPw",
+					"AwAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAP4MAAAAAAAA/gwAAAAAAAAAAAAAAADwvw"
+				],
+				[
+					10,
+					1,
+					"paste",
+					null,
+					"AQAAAPUMAAAAAAAAFg0AAAAAAAAAAAAA",
+					"AwAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAPUMAAAAAAAA9QwAAAAAAAAAAAAAAADwvw"
+				],
+				[
+					13,
+					1,
+					"paste",
+					null,
+					"AQAAACkRAAAAAAAAShEAAAAAAAAAAAAA",
+					"AwAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAACkRAAAAAAAAKREAAAAAAAAAAAAAAADwvw"
+				]
+			]
+		},
+		{
+			"file": "login/counter_checker.php",
+			"settings":
+			{
+				"buffer_size": 3400,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			},
+			"undo_stack":
+			[
+				[
+					3,
+					1,
+					"insert",
+					{
+						"characters": "\n\n"
+					},
+					"AgAAAFwBAAAAAAAAXQEAAAAAAAAAAAAAXQEAAAAAAABeAQAAAAAAAAAAAAA",
+					"AgAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAABcAQAAAAAAAFwBAAAAAAAAAAAAAAAA8L8"
+				],
+				[
+					4,
+					1,
+					"paste",
+					null,
+					"AQAAAF4BAAAAAAAAqgEAAAAAAAAAAAAA",
+					"AgAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAABeAQAAAAAAAF4BAAAAAAAAAAAAAAAA8L8"
+				],
+				[
+					12,
+					1,
+					"paste",
+					null,
+					"AgAAALQDAAAAAAAAwAMAAAAAAAAAAAAAwAMAAAAAAADAAwAAAAAAAAoAAABET01BSU5fVVJM",
+					"AgAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAC0AwAAAAAAAL4DAAAAAAAAAAAAAAAA8L8"
+				],
+				[
+					15,
+					1,
+					"paste",
+					null,
+					"AgAAAKYGAAAAAAAAsgYAAAAAAAAAAAAAsgYAAAAAAACyBgAAAAAAAAoAAABET01BSU5fVVJM",
+					"AgAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAACmBgAAAAAAALAGAAAAAAAAAAAAAAAA8L8"
+				],
+				[
+					23,
+					1,
+					"paste",
+					null,
+					"AQAAAJsAAAAAAAAAvwAAAAAAAAAAAAAA",
+					"AgAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAACbAAAAAAAAAJsAAAAAAAAAAAAAAAAA8L8"
+				],
+				[
+					24,
+					1,
+					"insert",
+					{
+						"characters": " "
+					},
+					"AQAAAL8AAAAAAAAAwAAAAAAAAAAAAAAA",
+					"AgAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAC/AAAAAAAAAL8AAAAAAAAAAAAAAAAA8L8"
+				],
+				[
+					29,
+					1,
+					"paste",
+					null,
+					"AQAAAAQEAAAAAAAAJQQAAAAAAAAAAAAA",
+					"AgAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAEBAAAAAAAAAQEAAAAAAAAAAAAAAAA8L8"
+				],
+				[
+					30,
+					1,
+					"insert",
+					{
+						"characters": "."
+					},
+					"AQAAACUEAAAAAAAAJgQAAAAAAAAAAAAA",
+					"AgAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAlBAAAAAAAACUEAAAAAAAAAAAAAAAA8L8"
+				],
+				[
+					33,
+					1,
+					"left_delete",
+					null,
+					"AQAAAAQEAAAAAAAABAQAAAAAAAABAAAALg",
+					"AgAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAFBAAAAAAAAAUEAAAAAAAAAAAAAAAA8L8"
+				],
+				[
+					36,
+					1,
+					"paste",
+					null,
+					"AQAAABYHAAAAAAAANwcAAAAAAAAAAAAA",
+					"AgAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAWBwAAAAAAABYHAAAAAAAAAAAAAAAA8L8"
+				]
+			]
+		},
+		{
+			"file": "login/close_counter.php",
+			"settings":
+			{
+				"buffer_size": 1782,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			},
+			"undo_stack":
+			[
+				[
+					3,
+					1,
+					"insert",
+					{
+						"characters": "\n\n\n"
+					},
+					"AwAAAIEBAAAAAAAAggEAAAAAAAAAAAAAggEAAAAAAACDAQAAAAAAAAAAAACDAQAAAAAAAIQBAAAAAAAAAAAAAA",
+					"AgAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAACBAQAAAAAAAIEBAAAAAAAAAAAAAAAA8L8"
+				],
+				[
+					4,
+					1,
+					"paste",
+					null,
+					"AQAAAIQBAAAAAAAA0AEAAAAAAAAAAAAA",
+					"AgAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAACEAQAAAAAAAIQBAAAAAAAAAAAAAAAA8L8"
+				],
+				[
+					12,
+					1,
+					"paste",
+					null,
+					"AgAAAHYGAAAAAAAAggYAAAAAAAAAAAAAggYAAAAAAACCBgAAAAAAAAoAAABET01BSU5fVVJM",
+					"AgAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAB2BgAAAAAAAIAGAAAAAAAAAAAAAAAA8L8"
+				],
+				[
+					15,
+					1,
+					"paste",
+					null,
+					"AQAAAKEGAAAAAAAAwgYAAAAAAAAAAAAA",
+					"AgAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAChBgAAAAAAAKEGAAAAAAAAAAAAAAAA8L8"
+				]
+			]
+		},
+		{
+			"file": "login/verify.php",
+			"settings":
+			{
+				"buffer_size": 2471,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			},
+			"undo_stack":
+			[
+				[
+					3,
+					1,
+					"insert",
+					{
+						"characters": "\n\n"
+					},
+					"AgAAAJEBAAAAAAAAkgEAAAAAAAAAAAAAkgEAAAAAAACTAQAAAAAAAAAAAAA",
+					"BAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADwvwAAAAABAAAAkQEAAAAAAACRAQAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					4,
+					1,
+					"insert",
+					{
+						"characters": "$se"
+					},
+					"AwAAAJMBAAAAAAAAlAEAAAAAAAAAAAAAlAEAAAAAAACVAQAAAAAAAAAAAACVAQAAAAAAAJYBAAAAAAAAAAAAAA",
+					"BAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADwvwAAAAABAAAAkwEAAAAAAACTAQAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					5,
+					1,
+					"insert",
+					{
+						"characters": "rvice_p"
+					},
+					"BwAAAJYBAAAAAAAAlwEAAAAAAAAAAAAAlwEAAAAAAACYAQAAAAAAAAAAAACYAQAAAAAAAJkBAAAAAAAAAAAAAJkBAAAAAAAAmgEAAAAAAAAAAAAAmgEAAAAAAACbAQAAAAAAAAAAAACbAQAAAAAAAJwBAAAAAAAAAAAAAJwBAAAAAAAAnQEAAAAAAAAAAAAA",
+					"BAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADwvwAAAAABAAAAlgEAAAAAAACWAQAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					6,
+					1,
+					"insert",
+					{
+						"characters": "ortal"
+					},
+					"BQAAAJ0BAAAAAAAAngEAAAAAAAAAAAAAngEAAAAAAACfAQAAAAAAAAAAAACfAQAAAAAAAKABAAAAAAAAAAAAAKABAAAAAAAAoQEAAAAAAAAAAAAAoQEAAAAAAACiAQAAAAAAAAAAAAA",
+					"BAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADwvwAAAAABAAAAnQEAAAAAAACdAQAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					7,
+					1,
+					"insert",
+					{
+						"characters": " ="
+					},
+					"AgAAAKIBAAAAAAAAowEAAAAAAAAAAAAAowEAAAAAAACkAQAAAAAAAAAAAAA",
+					"BAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADwvwAAAAABAAAAogEAAAAAAACiAQAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					8,
+					1,
+					"insert",
+					{
+						"characters": " "
+					},
+					"AQAAAKQBAAAAAAAApQEAAAAAAAAAAAAA",
+					"BAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADwvwAAAAABAAAApAEAAAAAAACkAQAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					9,
+					1,
+					"paste",
+					null,
+					"AQAAAKUBAAAAAAAA0QEAAAAAAAAAAAAA",
+					"BAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADwvwAAAAABAAAApQEAAAAAAAClAQAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					10,
+					1,
+					"insert",
+					{
+						"characters": ";"
+					},
+					"AQAAANEBAAAAAAAA0gEAAAAAAAAAAAAA",
+					"BAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADwvwAAAAABAAAA0QEAAAAAAADRAQAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					13,
+					1,
+					"paste",
+					null,
+					"AgAAAJMBAAAAAAAA3wEAAAAAAAAAAAAA3wEAAAAAAADfAQAAAAAAAD8AAAAkc2VydmljZV9wb3J0YWwgPSBhcHBfc2VydmljZV9wb3J0YWwoJHNlcnZpY2VfcG9ydGFsLCRzZXJ2aWNlKTs",
+					"BAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADwvwAAAAABAAAA0gEAAAAAAACTAQAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					19,
+					1,
+					"paste",
+					null,
+					"AgAAAE0CAAAAAAAAWQIAAAAAAAAAAAAAWQIAAAAAAABZAgAAAAAAAAoAAABET01BSU5fVVJM",
+					"BAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADwvwAAAAABAAAATQIAAAAAAABXAgAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					3,
+					1,
+					"paste",
+					null,
+					"AQAAAJsAAAAAAAAApAAAAAAAAAAAAAAA",
+					"AwAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAJsAAAAAAAAAmwAAAAAAAAAAAAAAAADwvw"
+				],
+				[
+					4,
+					1,
+					"insert",
+					{
+						"characters": ";"
+					},
+					"AQAAAKQAAAAAAAAApQAAAAAAAAAAAAAA",
+					"AwAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAKQAAAAAAAAApAAAAAAAAAAAAAAAAADwvw"
+				],
+				[
+					5,
+					1,
+					"insert",
+					{
+						"characters": " "
+					},
+					"AQAAAKUAAAAAAAAApgAAAAAAAAAAAAAA",
+					"AwAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAKUAAAAAAAAApQAAAAAAAAAAAAAAAADwvw"
+				],
+				[
+					11,
+					1,
+					"paste",
+					null,
+					"AQAAAJsAAAAAAAAAtQAAAAAAAAAAAAAA",
+					"AwAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAJsAAAAAAAAAmwAAAAAAAAAAAAAAAADwvw"
+				],
+				[
+					14,
+					1,
+					"insert",
+					{
+						"characters": ".'?"
+					},
+					"AwAAAJwCAAAAAAAAnQIAAAAAAAAAAAAAnQIAAAAAAACeAgAAAAAAAAAAAACeAgAAAAAAAJ8CAAAAAAAAAAAAAA",
+					"AwAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAJwCAAAAAAAAnAIAAAAAAAAAAAAAAADwvw"
+				],
+				[
+					15,
+					1,
+					"insert",
+					{
+						"characters": "sps"
+					},
+					"AwAAAJ8CAAAAAAAAoAIAAAAAAAAAAAAAoAIAAAAAAAChAgAAAAAAAAAAAAChAgAAAAAAAKICAAAAAAAAAAAAAA",
+					"AwAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAJ8CAAAAAAAAnwIAAAAAAAAAAAAAAADwvw"
+				],
+				[
+					16,
+					3,
+					"left_delete",
+					null,
+					"AwAAAKECAAAAAAAAoQIAAAAAAAABAAAAc6ACAAAAAAAAoAIAAAAAAAABAAAAcJ8CAAAAAAAAnwIAAAAAAAABAAAAcw",
+					"AwAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAKICAAAAAAAAogIAAAAAAAAAAAAAAADwvw"
+				],
+				[
+					17,
+					1,
+					"insert",
+					{
+						"characters": "aps"
+					},
+					"AwAAAJ8CAAAAAAAAoAIAAAAAAAAAAAAAoAIAAAAAAAChAgAAAAAAAAAAAAChAgAAAAAAAKICAAAAAAAAAAAAAA",
+					"AwAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAJ8CAAAAAAAAnwIAAAAAAAAAAAAAAADwvw"
+				],
+				[
+					18,
+					1,
+					"insert",
+					{
+						"characters": "='"
+					},
+					"AgAAAKICAAAAAAAAowIAAAAAAAAAAAAAowIAAAAAAACkAgAAAAAAAAAAAAA",
+					"AwAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAKICAAAAAAAAogIAAAAAAAAAAAAAAADwvw"
+				],
+				[
+					19,
+					1,
+					"insert",
+					{
+						"characters": "."
+					},
+					"AQAAAKQCAAAAAAAApQIAAAAAAAAAAAAA",
+					"AwAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAKQCAAAAAAAApAIAAAAAAAAAAAAAAADwvw"
+				],
+				[
+					27,
+					1,
+					"paste",
+					null,
+					"AQAAAKUCAAAAAAAAvQIAAAAAAAAAAAAA",
+					"AwAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAKUCAAAAAAAApQIAAAAAAAAAAAAAAADwvw"
+				]
+			]
+		},
+		{
+			"file": "/C/wamp/www/digit-spot-hms-hotel/includes/app_modules.php",
+			"settings":
+			{
+				"buffer_size": 7657,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "login/authen_user.php",
+			"settings":
+			{
+				"buffer_size": 1849,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "includes/rqu_functions.php",
+			"settings":
+			{
+				"buffer_size": 21221,
+				"line_ending": "Windows"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"in",
+				"Package Control: Install Package"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"colo",
+				"Color Picker"
+			],
+			[
+				"php",
+				"Set Syntax: PHP"
+			],
+			[
+				"sy",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/C/wamp/www/digit-spot-hms"
+	],
+	"file_history":
+	[
+		"/C/wamp/www/digit-spot-hms/includes/user_profile.php",
+		"/C/wamp/www/digit-spot-hms/login/index.php",
+		"/C/wamp/www/digit-spot-hms-pos/public/admin/portal.php",
+		"/C/wamp/www/digit-spot-hms-hotel/public/admin/portal.php",
+		"/C/wamp/www/digit-spot-hms-pos/public/admin/general_dasboard.html",
+		"/C/wamp/www/digit-spot-hms-pos/public/admin/dashinfo.php",
+		"/C/wamp/www/digit-spot-hms-pos/js/jsbk.js",
+		"/C/wamp/www/digit-spot-hms-hotel/js/jsbk.js",
+		"/C/wamp/www/digit-spot-hms-hotel/includes/app_modules.php",
+		"/C/wamp/www/digit-spot-hms-hotel/public/admin/logout.php",
+		"/C/wamp/www/digit-spot-hms-pos/public/admin/logout.php",
+		"/C/wamp/www/digit-spot-hms-pos/login/close-session.php",
+		"/C/wamp/www/digit-spot-hms-hotel/login/close-session.php",
+		"/C/wamp/www/digit-spot-hms-hotel/includes/php_paths.php",
+		"/C/wamp/www/digit-spot-hms/includes/app_modules.php",
+		"/C/wamp/www/digit-spot-hms-apps/login/index.php",
+		"/C/wamp/www/digit-spot-hms-apps/index.html",
+		"/C/wamp/www/digit-spot-hms-hotel/js/jspath.js",
+		"/C/wamp/www/digit-spot-hms/js/jsbk.js",
+		"/C/wamp/www/digit-spot-hms/includes/server_run_time.php",
+		"/C/wamp/www/digit-spot-hms-pos/includes/php_paths.php",
+		"/C/wamp/www/digit-spot-hms-pos/public/admin/materialcontrol/includes/php_paths.php",
+		"/C/wamp/www/digit-spot-hms-pos/js/jspath.js",
+		"/C/wamp/www/digit-spot-hms-pos/public/admin/materialcontrol/js/jspath.js",
+		"/C/wamp/www/digit-spot-hms-pos/index.php",
+		"/C/wamp/www/digit-spot-hms/public/index.php",
+		"/C/wamp/www/digit-spot-hms/index.html",
+		"/C/wamp/www/digit-spot-hms/login/shift_counter.php",
+		"/C/wamp/www/digit-spot-hms/includes/rqu_functions.php",
+		"/C/wamp/www/digit-spot-hms/includes/php_paths.php",
+		"/C/wamp/www/digit-spot-hms/public/admin/materialcontrol/includes/php_paths.php",
+		"/C/wamp/www/digit-spot-hms/public/admin/materialcontrol/js/jspath.js",
+		"/C/wamp/www/digit-spot-hms/js/jspath.js",
+		"/C/wamp/www/digit-spot-hms/login/authen_user.php",
+		"/C/wamp/www/digit-spot-hms-hotel/public/admin/helper.php",
+		"/C/wamp/www/digit-spot-hms-hotel/public/admin/htlchk.php",
+		"/C/wamp/www/digit-spot-hms-hotel/public/admin/bkg.php",
+		"/C/wamp/www/digit-spot-hms-hotel/public/admin/workspace.php",
+		"/C/wamp/www/digit-spot-hms-hotel/index.php",
+		"/C/wamp/www/digit-spot-hms-hotel/login/index.php",
+		"/C/wamp/www/digit-spot-hms-hotel/index.html",
+		"/C/wamp/www/digit-spot-travel-master/index.php",
+		"/C/wamp/www/digit-spot-hms/public/var/app_modules.php",
+		"/C/wamp/www/digit-spot-hms/assets/css3.0/custom.css",
+		"/C/wamp/www/hms/public/admin/accounting/revenue_sql.php",
+		"/C/wamp/www/hms/public/admin/accounting/trial_balance.php",
+		"/C/wamp/www/hms/public/admin/accounting/balance_sheet.php",
+		"/C/wamp/www/hms/public/admin/accounting/receivables_sql.php",
+		"/C/wamp/www/hms/public/admin/accounting/profit_and_loss_statement.php",
+		"/C/wamp/www/hms/public/admin/accounting/pos_sql.php",
+		"/C/wamp/www/hms/public/admin/accounting/expensesjo_sql.php",
+		"/C/wamp/www/hms/public/admin/pos/consumable_stock.php",
+		"/C/wamp/www/hms/public/admin/materialcontrol/includes/php_paths.php",
+		"/C/wamp/www/hms/includes/hotel_profile_alt.php",
+		"/C/wamp/www/hms/includes/hotel_profile.php",
+		"/C/wamp/www/hms/public/admin/frontdesk/booking_tokens.php",
+		"/C/wamp/www/hms/public/admin/frontdesk/booking.php",
+		"/C/wamp/www/hms/public/admin/frontdesk/post_booking_tokens.php",
+		"/C/wamp/www/transerve/includes/ng_states_sql.php",
+		"/C/wamp/www/hms/public/admin/coupon.php",
+		"/C/wamp/www/hms/public/admin/frontdesk/guest_coupon_mdl_lib.php",
+		"/C/wamp/www/hms/public/admin/administration/hotel_logo_mdl_lib.php",
+		"/C/wamp/www/hms/public/admin/administration/hotel_detail_mdl_lib.php",
+		"/C/wamp/www/hms/includes/php_paths.php",
+		"/C/wamp/www/hms/includes/tables.php",
+		"/C/wamp/www/hms/public/admin/accounting/recreation_sql.php",
+		"/C/wamp/www/hms/includes/app_modules.php",
+		"/C/wamp/www/hms/js/jsbk.js",
+		"/C/wamp/www/hms/public/var/app_modules.php",
+		"/C/wamp/www/hms/public/admin/portal.php",
+		"/C/wamp/www/hms/public/admin/workspace.php",
+		"/C/wamp/www/hms/public/admin/accounting/inventory_sql.php",
+		"/C/wamp/www/hms/public/admin/accounting/cash_sql.php",
+		"/C/wamp/www/hms/public/admin/accounting/booking_sql.php",
+		"/C/wamp/www/hms/includes/notificationlist.php",
+		"/C/wamp/www/hms/public/admin/materialcontrol/includes/common_data.php",
+		"/C/wamp/www/hms/includes/pos_common_data.php",
+		"/C/wamp/www/hms/includes/common_data_vars.php",
+		"/C/wamp/www/hms/public/admin/frontdesk/postbooking.php",
+		"/C/wamp/www/hms/public/admin/loggedusers.php",
+		"/C/wamp/www/hms/public/admin/dashinfo.php",
+		"/C/wamp/www/hms/public/admin/pos/pos_revenue_mdl_lib.php",
+		"/C/wamp/www/hms/public/admin/frontdesk/accountstatement.php",
+		"/C/wamp/www/hms/public/admin/materialcontrol/workspace.php",
+		"/C/wamp/www/hms/public/admin/workspacex.php",
+		"/C/wamp/www/hms/public/admin/materialcontrol/postforms.php",
+		"/C/wamp/www/hms/public/admin/fx_accounting.php",
+		"/C/wamp/www/hms/public/admin/fx_administration.php",
+		"/C/wamp/www/hms/public/admin/materialcontrol/printpr.php",
+		"/C/wamp/www/hms/public/admin/materialcontrol/purchase_request.php",
+		"/C/wamp/www/hms/public/admin/materialcontrol/job_order.php",
+		"/C/wamp/www/hms/public/admin/materialcontrol/printjo.php",
+		"/C/wamp/www/hms/index.html",
+		"/C/wamp/www/hms/login/index.php",
+		"/C/wamp/www/hms/login/authen_user.php",
+		"/C/wamp/www/hms/public/admin/fx_recreation.php",
+		"/C/wamp/www/hms/public/admin/fx_material_control.php",
+		"/C/wamp/www/hms/public/admin/reports/summary_revenue_report.php",
+		"/C/wamp/www/hms/public/admin/reports/corporate_consumption_report.php",
+		"/C/wamp/www/hms/public/admin/frontdesk/checkin_list_mdl_lib.php",
+		"/C/wamp/www/hms/public/admin/reports/daily_high_balance_report.php",
+		"/C/wamp/www/hms/includes/class.function.php",
+		"/C/wamp/www/hms/style/csslibrary/utility.css",
+		"/C/wamp/www/hms/public/admin/frontdesk/get_checkins_checkouts.php",
+		"/C/wamp/www/hms/public/admin/fx_report.php",
+		"/C/wamp/www/hms/public/admin/fx_sales.php",
+		"/C/wamp/www/hms/public/admin/fx_housekeeping.php",
+		"/C/wamp/www/hms/public/admin/fx_front_office.php",
+		"/C/wamp/www/hms/public/admin/fx_pos.php",
+		"/C/wamp/www/hms/includes/server_run_time.php",
+		"/C/wamp/www/hms/public/admin/frontdesk/inhouse_guest_mdl_lib.php",
+		"/C/wamp/www/hms/style/csslibrary/default.css",
+		"/C/wamp/www/hms/js/jsutility.js",
+		"/C/wamp/www/hms/includes/connection_string.php",
+		"/C/wamp/www/hms/public/admin/materialcontrol/includes/connection_string.php",
+		"/C/wamp/www/hms/public/admin/materialcontrol/js/jspath.js",
+		"/C/wamp/www/hms/js/jspath.js",
+		"/C/wamp/www/hms/public/var/snippet_ap.php",
+		"/C/wamp/www/hms/public/var/portal.php",
+		"/C/wamp/www/hms/public/var/ini.php",
+		"/C/wamp/www/hms/public/var/snippet_fs.php",
+		"/C/wamp/www/hms/public/var/module_category.php",
+		"/C/wamp/www/hms/public/var/mdl.html",
+		"/C/wamp/www/hms/assets/css3.0/custom.css",
+		"/C/wamp/www/hms/assets/css3.0/utility.css",
+		"/C/wamp/www/hms/assets/css3.0/postform.css",
+		"/C/wamp/www/medis/interface/office/admin/menu.php",
+		"/C/wamp/www/medis/interface/office/admin/worksheet.php"
+	],
+	"find":
+	{
+		"height": 29.0
+	},
+	"find_in_files":
+	{
+		"height": 109.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"hms",
+			"$_GET['app_service']",
+			"nunito-regular",
+			"light"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"scrollbar_highlights": true,
+		"show_context": true,
+		"use_buffer2": true,
+		"use_gitignore": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "includes/php_paths.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 7738,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								558,
+								558
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"tab_size": 3,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 157.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
+					"stack_multiselect": false,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "login/shift_counter.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 12989,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								3192,
+								3192
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 1487.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"stack_multiselect": false,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "login/counter_checker.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3400,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1847,
+								1847
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"stack_multiselect": false,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "login/close_counter.php",
+					"selected": true,
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1782,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1730,
+								1730
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 404.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"stack_multiselect": false,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "login/verify.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2471,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1506,
+								1506
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 746.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"stack_multiselect": false,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "/C/wamp/www/digit-spot-hms-hotel/includes/app_modules.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 7657,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								167,
+								167
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 492.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"stack_multiselect": false,
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "login/authen_user.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1849,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 57.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 7,
+					"stack_multiselect": false,
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "includes/rqu_functions.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 21221,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								20873,
+								20873
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 16779.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 6,
+					"stack_multiselect": false,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 29.0
+	},
+	"input":
+	{
+		"height": 51.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "digithms.sublime-project",
+	"replace":
+	{
+		"height": 54.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"close_coun",
+				"login\\close_counter.php"
+			],
+			[
+				"counter",
+				"login\\counter_checker.php"
+			],
+			[
+				"login/index",
+				"login\\index.php"
+			],
+			[
+				"app",
+				"includes\\app_modules.php"
+			],
+			[
+				"jsbk",
+				"js\\jsbk.js"
+			],
+			[
+				"rqu",
+				"includes\\rqu_functions.php"
+			],
+			[
+				"profile",
+				"includes\\user_profile.php"
+			],
+			[
+				"server",
+				"includes\\server_run_time.php"
+			],
+			[
+				"authe",
+				"login\\authen_user.php"
+			],
+			[
+				"shift",
+				"login\\shift_counter.php"
+			],
+			[
+				"verif",
+				"login\\verify.php"
+			],
+			[
+				"rq",
+				"includes\\rqu_functions.php"
+			],
+			[
+				"jspa",
+				"js\\jspath.js"
+			],
+			[
+				"php_pa",
+				"public\\admin\\materialcontrol\\includes\\php_paths.php"
+			],
+			[
+				"php_",
+				"includes\\php_paths.php"
+			],
+			[
+				"auth",
+				"login\\authen_user.php"
+			],
+			[
+				"custom",
+				"assets\\css3.0\\custom.css"
+			],
+			[
+				"login/ind",
+				"login\\index.php"
+			],
+			[
+				"noti",
+				"includes\\notificationlist.php"
+			],
+			[
+				"common",
+				"public\\admin\\materialcontrol\\includes\\common_data.php"
+			],
+			[
+				"commo",
+				"includes\\common_data_vars.php"
+			],
+			[
+				"pos_common",
+				"includes\\pos_common_data.php"
+			],
+			[
+				"coupon",
+				"public\\admin\\coupon.php"
+			],
+			[
+				"booking_toke",
+				"public\\admin\\frontdesk\\booking_tokens.php"
+			],
+			[
+				"bookin",
+				"public\\admin\\frontdesk\\booking.php"
+			],
+			[
+				"post_boo",
+				"public\\admin\\frontdesk\\post_booking_tokens.php"
+			],
+			[
+				"postboo",
+				"public\\admin\\frontdesk\\postbooking.php"
+			],
+			[
+				"booking.php",
+				"public\\admin\\frontdesk\\booking.php"
+			],
+			[
+				"printjo",
+				"public\\admin\\materialcontrol\\printjo.php"
+			],
+			[
+				"job_o",
+				"public\\admin\\materialcontrol\\job_order.php"
+			],
+			[
+				"postfor",
+				"public\\admin\\materialcontrol\\postforms.php"
+			],
+			[
+				"print",
+				"public\\admin\\materialcontrol\\printpr.php"
+			],
+			[
+				"purchase",
+				"public\\admin\\materialcontrol\\purchase_request.php"
+			],
+			[
+				"php_p",
+				"public\\admin\\materialcontrol\\includes\\php_paths.php"
+			],
+			[
+				"worksp",
+				"public\\admin\\workspacex.php"
+			],
+			[
+				"profil",
+				"includes\\hotel_profile.php"
+			],
+			[
+				"table",
+				"includes\\tables.php"
+			],
+			[
+				"hotel_de",
+				"public\\admin\\administration\\hotel_detail_mdl_lib.php"
+			],
+			[
+				"fx_recrea",
+				"public\\admin\\fx_recreation.php"
+			],
+			[
+				"fx_mater",
+				"public\\admin\\fx_material_control.php"
+			],
+			[
+				"sumarr",
+				"public\\admin\\reports\\summary_revenue_report.php"
+			],
+			[
+				"consuma",
+				"public\\admin\\pos\\consumable_stock.php"
+			],
+			[
+				"fx_accou",
+				"public\\admin\\fx_accounting.php"
+			],
+			[
+				"fx_adm",
+				"public\\admin\\fx_administration.php"
+			],
+			[
+				"index",
+				"index.html"
+			],
+			[
+				"corporate",
+				"public\\admin\\reports\\corporate_consumption_report.php"
+			],
+			[
+				"",
+				"public\\admin\\accounting\\booking_sql.php"
+			],
+			[
+				"class.fuc",
+				"includes\\class.function.php"
+			],
+			[
+				"uti",
+				"style\\csslibrary\\utility.css"
+			],
+			[
+				"dail",
+				"public\\admin\\reports\\daily_high_balance_report.php"
+			],
+			[
+				"summary",
+				"public\\admin\\reports\\summary_revenue_report.php"
+			],
+			[
+				"checkin",
+				"public\\admin\\frontdesk\\checkin_list_mdl_lib.php"
+			],
+			[
+				"chec",
+				"public\\admin\\frontdesk\\checkin_list_mdl_lib.php"
+			],
+			[
+				"checke",
+				"public\\admin\\frontdesk\\get_checkins_checkouts.php"
+			],
+			[
+				"works",
+				"public\\admin\\workspace.php"
+			],
+			[
+				"token",
+				"public\\admin\\frontdesk\\booking_tokens.php"
+			],
+			[
+				"pos_reve",
+				"public\\admin\\pos\\pos_revenue_mdl_lib.php"
+			],
+			[
+				"check",
+				"public\\admin\\frontdesk\\checkin_list_mdl_lib.php"
+			],
+			[
+				"inhou",
+				"public\\admin\\frontdesk\\inhouse_guest_mdl_lib.php"
+			],
+			[
+				"account",
+				"public\\admin\\frontdesk\\accountstatement.php"
+			],
+			[
+				"php",
+				"includes\\php_paths.php"
+			],
+			[
+				"fx_repor",
+				"public\\admin\\fx_report.php"
+			],
+			[
+				"fx_mate",
+				"public\\admin\\fx_material_control.php"
+			],
+			[
+				"fx_rec",
+				"public\\admin\\fx_recreation.php"
+			],
+			[
+				"fx_sales",
+				"public\\admin\\fx_sales.php"
+			],
+			[
+				"fx_house",
+				"public\\admin\\fx_housekeeping.php"
+			],
+			[
+				"fx_fron",
+				"public\\admin\\fx_front_office.php"
+			],
+			[
+				"fx_pos",
+				"public\\admin\\fx_pos.php"
+			],
+			[
+				"fx_acc",
+				"public\\admin\\fx_accounting.php"
+			],
+			[
+				"auter",
+				"login\\authen_user.php"
+			],
+			[
+				"login/inde",
+				"login\\index.php"
+			],
+			[
+				"post_booking",
+				"public\\admin\\frontdesk\\post_booking_tokens.php"
+			],
+			[
+				"postbook",
+				"public\\admin\\frontdesk\\postbooking.php"
+			],
+			[
+				"style/uti",
+				"style\\csslibrary\\utility.css"
+			],
+			[
+				"def",
+				"style\\csslibrary\\default.css"
+			],
+			[
+				"jsb",
+				"js\\jsbk.js"
+			],
+			[
+				"jsutil",
+				"js\\jsutility.js"
+			],
+			[
+				"portal",
+				"public\\admin\\portal.php"
+			],
+			[
+				"app_modu",
+				"public\\var\\app_modules.php"
+			],
+			[
+				"jsuti",
+				"js\\jsutility.js"
+			],
+			[
+				"js/js",
+				"js\\jsbk.js"
+			],
+			[
+				"jspath",
+				"js\\jspath.js"
+			],
+			[
+				"modul",
+				"includes\\app_modules.php"
+			],
+			[
+				"snipp",
+				"public\\var\\snippet_fs.php"
+			],
+			[
+				"module",
+				"public\\var\\module_category.php"
+			],
+			[
+				"mdl.h",
+				"public\\var\\mdl.html"
+			],
+			[
+				"snippet_fs.php",
+				"public\\var\\snippet_fs.php"
+			],
+			[
+				"ini",
+				"public\\var\\ini.php"
+			],
+			[
+				"public/var/po",
+				"public\\var\\portal.php"
+			],
+			[
+				"conn",
+				"public\\admin\\materialcontrol\\includes\\connection_string.php"
+			],
+			[
+				"postform",
+				"assets\\css3.0\\postform.css"
+			],
+			[
+				"app_",
+				"httpserver\\includes\\app_flow.php"
+			],
+			[
+				"menu",
+				"interface\\office\\admin\\menu.php"
+			],
+			[
+				"app_flow",
+				"httpserver\\includes\\app_flow.php"
+			],
+			[
+				"patient",
+				"interface\\office\\admin\\patient-data-collection.php"
+			],
+			[
+				"attendace",
+				"interface\\office\\admin\\attendance-payroll.php"
+			],
+			[
+				"select-phar",
+				"httpserver\\select-pharmacy-sales.php"
+			],
+			[
+				"pharmacy-receipt",
+				"interface\\office\\admin\\forms\\pharmacy-receipt.php"
+			],
+			[
+				"pharmacypos",
+				"interface\\office\\admin\\pharmacypos.php"
+			],
+			[
+				"phreceipt",
+				"interface\\office\\admin\\phreceipt.php"
+			],
+			[
+				"pharma",
+				"interface\\office\\admin\\pharmacystock.php"
+			],
+			[
+				"worksh",
+				"interface\\office\\admin\\worksheet.php"
+			],
+			[
+				"data",
+				"httpserver\\includes\\data_flow.php"
+			],
+			[
+				"add-pha",
+				"interface\\office\\admin\\forms\\add-pharmacy-stock.php"
+			],
+			[
+				"select-mast",
+				"httpserver\\select-master-item.php"
+			],
+			[
+				"mater",
+				"interface\\office\\admin\\material-control.php"
+			],
+			[
+				"dash",
+				"interface\\office\\admin\\dashboard.php"
+			],
+			[
+				"master-dat",
+				"interface\\office\\admin\\master-data.php"
+			],
+			[
+				"add-ph",
+				"interface\\office\\admin\\forms\\add-pharmacy-stock.php"
+			],
+			[
+				"add-purc",
+				"interface\\office\\admin\\forms\\add-purchase.php"
+			],
+			[
+				"master-",
+				"httpserver\\master-item-input.php"
+			],
+			[
+				"pharmacy",
+				"httpserver\\pharmacy-stock-input.php"
+			],
+			[
+				"staff-shift",
+				"interface\\office\\admin\\forms\\add-staff-shift.php"
+			],
+			[
+				"select-pa",
+				"httpserver\\select-patient-data.php"
+			],
+			[
+				"select-pati",
+				"httpserver\\select-patient-data.php"
+			],
+			[
+				"utit",
+				"assets\\css3.0\\utility.css"
+			],
+			[
+				"custom_fo",
+				"assets\\css3.0\\custom_fonts.css"
+			],
+			[
+				"merchant",
+				"interface\\office\\admin\\merchant_header.php"
+			],
+			[
+				"view",
+				"interface\\office\\admin\\forms\\view-bill.php"
+			],
+			[
+				"bill",
+				"interface\\office\\admin\\billing.php"
+			],
+			[
+				"default.css",
+				"assets\\css3.0\\default.css"
+			],
+			[
+				"all",
+				"assets\\js\\all.js"
+			],
+			[
+				"adm",
+				"httpserver\\admin-account-signin.php"
+			],
+			[
+				"bill-in",
+				"httpserver\\bill-input.php"
+			],
+			[
+				"access",
+				"interface\\accessories.php"
+			],
+			[
+				"add-acm",
+				"interface\\office\\admin\\forms\\add-acm-tariff.php"
+			],
+			[
+				"add-accom",
+				"interface\\office\\admin\\forms\\add-accomodation.php"
+			],
+			[
+				"add-user",
+				"interface\\office\\admin\\forms\\add-user.php"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "fai",
+		"selected_items":
+		[
+			[
+				"fai",
+				"C:\\wamp\\www\\faithdave\\fd.sublime-project"
+			],
+			[
+				"traa",
+				"C:\\wamp\\www\\traavul\\traavul.sublime-project"
+			],
+			[
+				"ac",
+				"C:\\wamp\\www\\ach\\ach.sublime-project"
+			],
+			[
+				"ach",
+				"C:\\wamp\\www\\ach\\ach.sublime-project"
+			],
+			[
+				"ho",
+				"C:\\wamp\\www\\hotelprox\\hotelman.sublime-project"
+			],
+			[
+				"roc",
+				"C:\\wamp\\www\\rockviewhotel\\rockview.sublime-project"
+			],
+			[
+				"",
+				"C:\\wamp\\www\\govuk\\govuk.sublime-project"
+			],
+			[
+				"x",
+				"C:\\wamp\\www\\xsnetwork\\xsn.sublime-project"
+			],
+			[
+				"blo",
+				"C:\\wamp\\www\\blogger\\blogger.sublime-project"
+			],
+			[
+				"rock",
+				"C:\\wamp\\www\\rockviewhotel\\rockview.sublime-project"
+			],
+			[
+				"transe",
+				"C:\\wamp\\www\\transerve\\transerve.sublime-project"
+			],
+			[
+				"carg",
+				"C:\\wamp\\www\\ysgcargo.backoffice\\ysgcargobk.sublime-project"
+			],
+			[
+				"itsof",
+				"C:\\wamp\\www\\itsoftwarecenter\\itsoftware.sublime-project"
+			],
+			[
+				"ib",
+				"C:\\wamp\\www\\ibatinformatics\\ibat.sublime-project"
+			]
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": false,
+	"side_bar_width": 214.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

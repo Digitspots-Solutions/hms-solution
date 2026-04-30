@@ -1,0 +1,122 @@
+/* css file */
+
+#modal-box,#process-bar {
+	display: none;
+}
+
+#modal-box-1,#modal-box-2,#modal-box-3,#modal-box-4 {
+	display: none;
+}
+
+.dashboard-cycle-size {
+	width: 70px;
+	height: 70px;
+}
+
+.dashboard-cycle-xsize {
+	width: 60px;
+	height: 60px;
+}
+
+.dashboard-cycle-xxsize {
+	width: 40px;
+	height: 40px;
+}
+
+.c-imagebox {
+	width: 200px;
+	height: 200px;
+}
+
+.indicator {
+	width: 14px;
+	height: 14px;
+	border: 1px solid #009933;
+	background-color: #fff;
+	padding: 1px;
+}
+
+.indicator span {
+	width: 10px;
+	height: 10px;
+	background-color: #009933;
+}
+
+.indicator-n {
+	width: 14px;
+	height: 14px;
+	border: 1px solid #ff0000;
+	background-color: #fff;
+	padding: 1px;
+}
+
+.indicator-n span {
+	width: 10px;
+	height: 10px;
+	background-color: #ff0000;
+}
+
+.cs-sticky-menu {
+	position: fixed;
+}
+
+.cs-sticky-class {
+	top: 10px;
+	right: 50px;
+	left: 25%;
+}
+
+.sticky-menu-state {
+	background: none;
+	color: #0066cc;
+}
+
+.sticky-menu-state:hover {
+	background: #000;
+	color: #fff;
+}
+
+.sticky-menu-black {
+	background: #1d1d1d;
+	color: #fff;
+}
+
+.csp-height-0 {
+	height: 0;
+}
+
+.csp-height-75 {
+ 	height: 75%;
+}
+
+.sub-menu-class {
+	background: #fff;
+	color: #000;
+}
+
+.sub-menu-class:hover {
+	background: #2d2d2d;
+	color: #fff;
+}
+
+.minuleft15 {
+	margin-left: -15px;
+}
+
+.minutop5 {
+	margin-top: -4px;
+}
+
+.nosub-menu-class {
+	background: #777;
+	color: #fff;
+}
+
+.nosub-menu-class:hover {
+	background: #2d2d2d;
+	color: #fff;
+}
+
+.nc-width-98 {
+	width: 97%;
+}

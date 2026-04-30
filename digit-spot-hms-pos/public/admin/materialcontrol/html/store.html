@@ -1,0 +1,76 @@
+<form action="" method="post" autocomplete="off" onsubmit="xframeenablescroll(); onsubmt('submitbutton','Submitting..')">
+	<input type="hidden" name="uri" value="insert-store">
+	<div class="xform bottom-push-15">
+		<label>Store Name</label>
+		<input type="text" name="wgtf1" id="wgtf1" placeholder="Enter here e.g Food & Beverages Store" maxlength="150" class="nopads no-back-black" onkeypress="titleCase(this.value,this.id)" required="required">
+	</div>
+	<div class="xform bottom-push-15">
+		<label>Store Type</label>
+		<!--<input list="storetype" name="wgtf2" id="wgtf2" placeholder="Type or choose?" class="nopads no-back-black" onfocus="wgets('storetype')" onkeypress="titleCase(this.value,this.id)" required><datalist id="storetype"></datalist>-->
+		<select name="wgtf2" id="wgtf2" class="nopads no-back-black" required="required">
+			<option value="Consumables/Serviceables" selected="selected">Consumables/Serviceables</option>
+		</select>
+	</div>
+	<div class="xform bottom-push-15">
+		<label>Department</label>
+		<select name="wgtf3" id="wgtf3" class="nopads no-back-black" onclick="wgets_db('wgtf3')" required="required">
+			<option value="" selected="selected">Choose?</option>
+		</select>
+	</div>
+	<div class="top-push-50 motion">
+		<input type="hidden" name="datau" id="datau" value="0">
+		<input type="submit" id="submitbutton" name="submitbutton" value="Add to List" class="nc-width-100 submit blue-white-state  nunito-semibold rounded-button anchor letter-spacing-2 nodefault-appearance">
+	</div>
+</form>
+
+
+<script>
+
+	function wgets(ls) {
+	
+		var datalist = document.getElementById(ls);
+		
+		if(datalist.value == null || datalist.value == 'undefined' || datalist.value == '') {
+			
+			sqldatastring.sql = "SELECT store_type FROM stores_tbl WHERE deletedata=0 GROUP BY store_type";
+			sqldataQuery(wgtparam,sqldatastring);
+
+			function wgtparam(response) {
+				var data = JSON.parse(response);
+				var i, lshtml = '', dl = data.datastring;
+				
+				for(i=0; i<dl.length; i++) {
+					lshtml += '<option value="'+dl[i].store_type+'">';
+				}
+
+				writeObjheader(ls,lshtml);
+			}
+		}
+	}
+
+
+	function wgets_db(ls) {
+	
+		var datalist = document.getElementById(ls);
+		
+		if(datalist.value == null || datalist.value == 'undefined' || datalist.value == '') {
+			
+			sqldatastring.sql = "SELECT * FROM department_tbl WHERE deletedata=0";
+			sqldataQuery(wgtparam,sqldatastring);
+
+			function wgtparam(response) {
+				var data = JSON.parse(response);
+				var i, lshtml = '', dl = data.datastring;
+				
+				lshtml += '<option value="" selected="selected">Choose?</option>';
+
+				for(i=0; i<dl.length; i++) {
+					lshtml += '<option value="'+dl[i].id+'">'+dl[i].department+'</option>';
+				}
+
+				writeObjheader(ls,lshtml);
+			}
+		}
+	}
+
+</script>

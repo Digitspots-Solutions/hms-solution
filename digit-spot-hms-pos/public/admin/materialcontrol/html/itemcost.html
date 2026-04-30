@@ -1,0 +1,134 @@
+<form action="" method="post" autocomplete="off" onsubmit="xframeenablescroll(); onsubmt('submitbutton','Submitting..')">
+	<input type="hidden" name="uri" value="insert-item-cost">
+	<h4 class="xlarge nobold black-font bottom-pull-15">Note: type to filter the item list you want to cost</h4>
+
+	<div class="xform bottom-push-20">
+		<div class="pads10">
+			<span class="pads7"><input type="text" name="for-item" id="for-item" placeholder="Type to search item.." class="nopads no-back-black" oninput="filtersearch(this.id)" onfocus="filtersearch(this.id); wgtr('item')"></span>
+			<span id="list-item" class="noshow"><select name="item" id="item" class="nopads no-back-black" onchange="filterselect(this.id); avgc(this.id); wgtcost(this.id)"><option value="" selected="selected"></option></select></span>
+
+			<!--<select name="item" id="item" class="nopads no-back-black" onclick="" required>
+				<option value="">Choose?</option>
+			</select>-->
+		</div>
+	</div>
+
+	<div class="box-border-thick-bottom right-pull-7 left-pull-7 bottom-pull-15 bottom-push-5 motion-x">
+		<div class="bottom-push-5">&#8358; <b id="cur-price" class="default-text-font-bold nobold">0.00</b></div>
+		<input type="number" min="1" step="any" name="costprice" id="costprice" placeholder="Enter current cost price?" class="nopads no-back-black" required>
+		<div id="for-item-cost-average" class="xfadein noshow motion-x">
+			<a href="javascript:void(0)" class="blue-font c-avg" onclick="showavgform(this.lang)" lang="0">+ Click here to get item average cost</a>
+			<div id="for-avgc" class="noshow">
+				<div class="pads15 grey-theme xsml-rounded-button bottom-push-7 sided-box">
+					<ul>
+						<li class="nc-width-50 right-pull-5">
+							<input type="text" id="for-cost" placeholder="Enter new cost?" class="nopads no-back-black" onblur="iac()">
+						</li>
+						<li class="nc-width-50 left-pull-5">
+							<input type="text" id="for-qty" placeholder="Enter quantity to come-in?" class="nopads no-back-black" onblur="iac()">
+						</li>
+						<li></li>
+					</ul>
+				</div>
+				<h4 class="large nobold dark-grey-font nomargin"><b class="fas fa-question-circle right-push-5"></b> Use tab-key to move around fields</h4>
+			</div>
+		</div>
+	</div>
+	
+	<div class="top-pull-50 motion-x" align="center">
+		<input type="submit" id="submitbutton" name="submitbutton" value="Confirm & Save" class="nc-width-60 blue-white-state top-pull-15 bottom-pull-15 nunito-semibold rounded-button anchor ft-mini-size letter-spacing-2 nodefault-appearance">
+	</div>
+</form>
+
+
+
+<script>
+
+	function wgtr(id) {
+
+		if(document.getElementById(id).value == '' || document.getElementById(id).value == null) {
+			
+			sqldatastring.sql = "SELECT * FROM stock_item_tbl WHERE status='Active' AND deletedata=0";
+			sqldataQuery(wgtpop,sqldatastring);
+
+			function wgtpop(response) {
+				var i, vhtml, data, ajaxresult = JSON.parse(response);
+				data = ajaxresult.datastring;
+
+				vhtml = '<option value="" selected="selected"></option>';
+
+				for(i=0; i<data.length; i++) {
+					vhtml += '<option value="'+data[i].id+'">'+data[i].item+'</option>';
+				}
+
+				writeObjheader(id,vhtml);
+				
+			}
+		}
+	}
+
+	const wkdata = {"stockbal":0,"itemcost":0};
+
+	function avgc(id) {
+		
+		setTimeout(() => {
+			var item = document.getElementById(id).value;
+			//suggestions.splice(0,suggestions.length);
+			//idget_val('warehouse_stock_items_tbl',item,'itemid','id','scalar');
+
+			sqldatastring.sql = "SELECT * FROM warehouse_stock_items_tbl WHERE itemid="+item+" AND deletedata=0 ORDER BY id DESC LIMIT 1";
+			sqldataQuery(wgtpop,sqldatastring);
+
+			function wgtpop(response) {
+				var i, vhtml, data, ajaxresult = JSON.parse(response);
+				data = ajaxresult.datastring;
+
+				if(data[0].balance > 0) {
+					chgclass('for-item-cost-average','xfadeout top-push-20 motion-x');
+					wkdata.stockbal = data[0].balance;
+					wkdata.itemcost = data[0].unitprice;
+				}
+			}
+		},1000);
+	}
+
+	function wgtcost(id) {
+		
+		setTimeout(() => {
+			var item = document.getElementById(id).value;
+			sqldatastring.sql = "SELECT * FROM item_cost_centre_tbl WHERE itemid="+item+" AND deletedata=0 ORDER BY id DESC LIMIT 1";
+			sqldataQuery(wgtpop,sqldatastring);
+
+			function wgtpop(response) {
+				var i, vhtml, data, ajaxresult = JSON.parse(response);
+				data = ajaxresult.datastring;
+				writeObjheader('cur-price',numberFormat(data[0].costprice));
+			}
+		},1000);
+	}
+
+	function showavgform(lang) {
+		var a = document.getElementsByClassName('c-avg')[0];
+		if(lang == 0) {
+			a.lang = 1;
+			chgclass('for-avgc','xfadeout top-push-5');
+		} else if(lang == 1) {
+			a.lang = 0;
+			chgclass('for-avgc','noshow xfadein');
+		}
+	}
+
+	function iac() {
+		var cost = document.getElementById('for-cost');
+		var qty = document.getElementById('for-qty');
+		var cp = document.getElementById('costprice');
+
+		if((cost.value !== null && eval(cost.value) > 0) && (qty.value !== null && eval(qty.value) > 0)) {
+			var newin = eval(cost.value) + eval(qty.value);
+			var oldin = eval(wkdata.itemcost) + eval(wkdata.stockbal);
+			var avg = (newin + oldin) / 2;
+			cp.value = todecimal(avg,1);
+		}
+	}
+
+</script>

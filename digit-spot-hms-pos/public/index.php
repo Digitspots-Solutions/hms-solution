@@ -1,0 +1,1 @@
+<title>POINT OF SALE</title>

@@ -1,0 +1,81 @@
+<form action="" method="post" autocomplete="off" onsubmit="xframeenablescroll(); onsubmt('submitbutton','Submitting..')">
+	<input type="hidden" name="uri" value="insert-item-sub-category">
+	<h4 class="xlarge nobold black-font bottom-pull-15">Note: to move to next sub-category, press <u>enter-key</u> at the end of each sub-category name you typed</h4>
+
+	<div class="xform bottom-push-15">
+		<div class="pads10">
+			<select name="category" id="category" class="nopads no-back-black" onclick="wgtr(this.id)" required>
+				<option value="">Choose?</option>
+			</select>
+		</div>
+	</div>
+
+	<div id="text-container">
+		<div id="txtwgtf1" class="ln-display-box float-left cs-width-200 sml-rounded-button pads15 right-push-5 bottom-push-5 motion-x"><input type="text" name="items[]" id="wgtf1" placeholder="Enter sub-category name?" class="nopads no-back-black" onkeypress="nextObj(this.id,event); titleCase(this.value,this.id)" required></div>
+	</div>
+	
+	<div class="block-element new-line-space"></div>
+
+	<div id="sbtn" class="xfadein motion-x" align="center">
+		<input type="submit" id="submitbutton" name="submitbutton" value="Add to List" class="nc-width-50 blue-white-state top-pull-15 bottom-pull-15 nunito-semibold rounded-button anchor ft-mini-size letter-spacing-2 nodefault-appearance">
+	</div>
+</form>
+
+
+
+<script>
+
+	function nextObj(txtholder,e) {
+	
+		if(e.KeyCode == 13 || e.which == 13) {
+			
+			e.preventDefault();
+
+			var contr,elems,noofElems,aElem;
+			
+			contr = document.getElementById('text-container');
+			elems = contr.getElementsByTagName('div');
+			noofElems = (elems.length) + 1;
+			
+			aElem = document.getElementById(txtholder);
+			aElem.blur();
+			
+			chgclass('sbtn','xfadeout top-pull-50 motion-x');
+			chgclass(txtholder,'nopads no-back-white alignct ft-sml-size');
+			chgclass('txt'+txtholder,'ln-display-box float-left cs-width-180 dark-black-white-state sml-rounded-button pads15 right-push-5  bottom-push-5 motion-x');
+
+			var newTxtHolder = document.createElement('div');
+			newTxtHolder.id = 'txtwgtf'+noofElems;
+			newTxtHolder.className = 'ln-display-box float-left cs-width-200 sml-rounded-button pads15 right-push-5 bottom-push-5 motion-x';
+			contr.appendChild(newTxtHolder);
+
+			setTimeout(() => {
+				newTxtHolder.innerHTML = '<input type="text" name="items[]" id="wgtf'+noofElems+'" placeholder="Enter sub-category name?" class="nopads no-back-black" onkeypress="nextObj(this.id,event); titleCase(this.value,this.id)">';
+				document.getElementById('wgtf'+noofElems).focus();
+			},200);
+		}
+	}
+
+
+	function wgtr(id) {
+
+		sqldatastring.sql = "SELECT * FROM stock_category_tbl";
+		sqldataQuery(wgtpop,sqldatastring);
+
+		function wgtpop(response) {
+			var i, vhtml, data, ajaxresult = JSON.parse(response);
+			data = ajaxresult.datastring;
+
+			vhtml = '<option value="">Choose?</option>';
+
+			for(i=0; i<data.length; i++) {
+				vhtml += '<option value="'+data[i].id+'">'+data[i].category+'</option>';
+			}
+
+			if(document.getElementById(id).value == '' || document.getElementById(id).value == null) {
+				writeObjheader(id,vhtml);
+			}
+		}
+	}
+
+</script>

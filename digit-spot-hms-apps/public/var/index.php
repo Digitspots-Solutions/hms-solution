@@ -1,0 +1,1 @@
+<?php include "../../includes/php_paths.php"; $location = DOMAIN_URL.'login/'; header("Location: {$location}"); exit; ?>

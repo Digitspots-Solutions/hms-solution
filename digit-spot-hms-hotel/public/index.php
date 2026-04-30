@@ -1,0 +1,1 @@
+<title>HOTEL MANAGEMENT SYSTEM</title>
