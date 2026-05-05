@@ -29,3 +29,21 @@ The physical server runs with Apache Server (wamp). Check the repos in the list 
 The client systems use the Windows Host-file. This could be configured for the server network IP to run the application
 
 Note: The mentioned application repos are deployed on the apache server. So you need to install the attached wamp file
+
+Steps to install the application on the server
+
+1. Look for a repo in the list named as apache_wamp_server
+2. Open it and download the wamp file
+3. Install it on the server by following the prompt. Ensure you enable automatic start
+4. After installation is completed, go to your C: drive and open wamp folder
+5. Open www folder
+4. Copy/download all the repos here except apache_wamp_server and mysql-information-tables
+5. Paste these repos in the www folder
+6. To access the software after all processes, open your browser and type http://127.0.0.1/digit-spot-hms/
+
+Import the database
+1. Copy/download mysql-information-tables
+2. Open your browser and type localhost/phpmyadmin/
+3. create a database name hmsdb
+4. Click Import button then attach the sql file inside mysql-information-tables
+5. Click on submit/go button to initiate import
