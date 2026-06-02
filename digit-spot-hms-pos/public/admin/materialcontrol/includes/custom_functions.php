@@ -149,7 +149,7 @@ function idget_fname($id,$col,$name,$tbl) {
 
 function idget_global($key,$arr) {
 	
-	if(!empty($arr) && count($arr) > 0) {
+	if(!empty($arr)) {
 		
 		global $_gparams;
 
