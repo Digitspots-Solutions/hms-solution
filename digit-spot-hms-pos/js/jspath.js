@@ -2,6 +2,6 @@
 
 var filePath,phpfile,imagepath1,imagepath2,imagepath3;
 
-//filePath = "http://app.hms.com/";
-filePath = "http://127.0.0.1/digit-spot-hms-pos/";
+filePath = "https://hmssolution.org/digit-spot-hms-pos/";
+//filePath = "http://127.0.0.1/digit-spot-hms-pos/";
 phpfile = filePath+'phpfiles/';
