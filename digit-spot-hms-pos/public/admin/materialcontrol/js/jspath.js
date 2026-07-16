@@ -5,7 +5,7 @@
 
 var online_url,local_url,curl,cphpf,publ,exts;
 
-online_url = "http://app.hms.com/";
+online_url = "https://hmssolution.org/digit-spot-hms-pos/";
 local_url = "http://127.0.0.1/digit-spot-hms-pos/";
 
 curl = local_url;
