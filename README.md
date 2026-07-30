@@ -1,49 +1,55 @@
-# Open the index file to see the short directions to all the listed application repos
+# DigitSpots HMS Solution - Application Overview
 
-+ Development
+Welcome to the **DigitSpots HMS (Hotel Management System) Solution**. This repository serves as the central hub and landing page for a suite of interconnected business applications designed to manage hotel operations, point-of-sale activities, and travel management.
 
-#HTML, #CSS, #JS, #PHP and #MYSQL
+## 🚀 Application Functionality
 
-The application is divided into three(3) different applications, though the hotel-management and point-of-sale were developed together initially. The solutions are now in three forms;
+The software suite is built on a standard **HTML, CSS, JavaScript, PHP, and MySQL** stack and is divided into three distinct sub-applications. The root repository acts as a portal granting clients access to their enabled services.
 
-1. Hotel Management: This is for internal booking/reservation and recreation. The repo for this is #digit-spot-hms-hotel
-2. Point of Sale: This is for hotel outlets, supermarts, event centers, and lounges. The repo for this is #digit-spot-hms-pos
-3. Travel Master: This is still in-view. The repo for this is #digit-spot-hms-travel-master
+1. **Hotel Management (`digit-spot-hms-hotel`)**: 
+   A comprehensive module for internal booking, room reservations, guest management, and recreation services.
+2. **Point of Sale (`digit-spot-hms-pos`)**: 
+   Designed for hotel outlets, supermarkets, event centers, and lounges to handle transactions and inventory.
+3. **Travel Master (`digit-spot-hms-travel-master`)**: 
+   An upcoming module focused on travel and transport management (Currently in-view).
 
-However, there is a repo that interfaces these three applications: #digit-spot-hms. The index file in this repo creates room for you to enable the application you want the client to have access to. So this repo serves as a landing page for the three applications
+**Architecture Note**: 
+The Hotel Management and Point of Sale applications are functionally independent in terms of their codebase but **share the same MySQL database (`hmsdb`)**. This allows for unified reporting and data centralization across a hotel's various operational facets.
 
-Hotel Management & Point of Sale share the same database, but their files are independent.
+---
 
+## 🛠️ Local Development Setup
 
-+ Deployment
+The application currently supports local development through Docker Compose, which containerizes the Apache web server, PHP environment, and MariaDB database.
 
-# On-Cloud
-AWS
+1. Ensure you have **Docker** and **Docker Compose** installed.
+2. Run the following command in the root directory:
+   ```bash
+   docker-compose up -d --build
+   ```
+3. The application will be accessible at `http://localhost/digit-spot-hms/`.
+4. The database is automatically seeded with the `hmsdb.sql` schema on the first run.
 
-# On-Prem (Local Web Server)
-LOCAL AREA NETWORK
-This is a server-client system whereby you have a dedicated system that serves as a server and the client systems are connected on the same network. So the application is deployed on the server, and communication is done using network IPs.
+*(Legacy Local Setup: Historically, the application was deployed via a local Apache WAMP server over a Local Area Network (LAN), mapping client systems to the server's network IP).*
 
-The physical server runs with Apache Server (wamp). Check the repos in the list for apache_wamp_server
+---
 
-The client systems use the Windows Host-file. This could be configured for the server network IP to run the application
+## ⚠️ Current Application Shortcomings & Needed Improvements
 
-Note: The mentioned application repos are deployed on the apache server. So you need to install the attached wamp file
+The application is currently transitioning from a legacy on-premise model to a modern cloud-native architecture. As such, several code-level improvements must be made:
 
-Steps to install the application on the server
+### 1. Hardcoded Configuration & Lack of Environment Variables
+- **Current State**: Database credentials and domain paths are hardcoded into PHP files (e.g., `connection_string.php`, `php_paths.php`). During deployment, a bash script manually replaces these strings using `sed`.
+- **Improvement**: Implement environment variables (e.g., using `.env` files or PHP's `getenv()`). This will completely decouple configuration from code, improving security and removing the need for hacky deployment string replacements.
 
-1. Look for a repo in the list named as apache_wamp_server
-2. Open it and download the wamp file
-3. Install it on the server by following the prompt. Ensure you enable automatic start
-4. After installation is completed, go to your C: drive and open wamp folder
-5. Open www folder
-4. Copy/download all the repos here except apache_wamp_server and mysql-information-tables
-5. Paste these repos in the www folder
-6. To access the software after all processes, open your browser and type http://127.0.0.1/digit-spot-hms/
+### 2. Local File System Storage (Instance Storage)
+- **Current State**: User uploads (images, documents, reports) are stored directly on the local server file system within the `www/html` directory.
+- **Improvement**: Migrate all file uploads and media handling to **Amazon S3** using the AWS SDK for PHP. Because files are stored locally, the application cannot be horizontally scaled. If an EC2 instance is terminated, local files are lost.
 
-Import the database
-1. Copy/download mysql-information-tables
-2. Open your browser and type localhost/phpmyadmin/
-3. create a database name hmsdb
-4. Click Import button then attach the sql file inside mysql-information-tables
-5. Click on submit/go button to initiate import
+### 3. Monolithic Coupling
+- **Current State**: The applications share the same database but are completely separate folders with duplicated assets and logic.
+- **Improvement**: Refactor shared business logic into reusable PHP components (using Composer for dependency management) to avoid code duplication across the Hotel and POS systems.
+
+### 4. Logging & Error Handling
+- **Current State**: Relies on standard PHP error output which can obscure production issues.
+- **Improvement**: Integrate a robust logging library (like Monolog) to stream application logs to a centralized cloud service (like Amazon CloudWatch).

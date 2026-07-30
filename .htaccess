@@ -1,0 +1,2 @@
+RewriteEngine On
+RewriteRule ^$ /digit-spot-hms/ [L,R=301]
