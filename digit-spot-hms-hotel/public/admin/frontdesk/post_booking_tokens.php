@@ -6,7 +6,8 @@
 		if(isset($_POST['wgtidx']) && $_POST['wgtidx'] >= 1) {
 			
 			$wgtf1 = $_POST['wgtidx'];
-			$image_upload_link = "../../theme/images/general/guestphotos/";
+			//$image_upload_link = "../../theme/images/general/guestphotos/";
+			$image_upload_link = $_SERVER['DOCUMENT_ROOT']."/digit-spot-hms-hotel/theme/images/general/guestphotos/";
 
 			$encoded_data = str_replace(' ','+',$_POST['dataurl']);
 			$binary_data = base64_decode($encoded_data);
