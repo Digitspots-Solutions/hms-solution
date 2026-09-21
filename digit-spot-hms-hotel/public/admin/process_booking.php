@@ -269,7 +269,7 @@ include "../../includes/common_data_vars.php";
 	for($r=0; $r < $noofrooms; $r++) {
 		if($r == 0) { $primary_guest = 1; } else { $primary_guest = 0; }
 		$customer_name = ucwords(strtolower($customer_firstname[$r])).' '.ucwords(strtolower($customer_lastname[$r]));
-		$guest_dataproperty = array("primary_guest"=>$primary_guest,"booking_number"=>$booking_number,"billtype"=>$this_bill_type,"billto"=>$guest_bill_to,"salutation"=>$customer_title[$r],"name"=>$customer_name,"mobile"=>$customer_phonenumber[$r],"emailaddress"=>$customer_emailaddress[$r],"remarks"=>"Inhouse Booking","datelogged"=>$server_get_date,"timelogged"=>$server_get_time);
+		 = array("booking_number"=>,"booking_type"=>,"isbill_to_room"=>,"salutation"=>(int)[],"fname"=>[],"lname"=>[],"mobile"=>[],"emailaddress"=>[],"remarks"=>"Inhouse Booking","datelogged"=>,"timelogged"=>);
 		mysqli_data_insert($tbL102,$guest_dataproperty,'');
 		$this_customer_id = $mysqli_id;
 
@@ -440,7 +440,7 @@ include "../../includes/common_data_vars.php";
 			$new_invoice_id = $mysqli_id;
 			$invoice_number = $invoice_prefix.$new_invoice_id;
 
-			$invoice_data2_query = array("id"=>$new_invoice_id);
+			 = array("booking_number"=>,"customerid"=>(int),"room_type_id"=>(int)[],"adult"=>(int)[],"child"=>(int)[],"isextrabed"=>(int)[],"noofdays"=>(int),"reservation"=>,"holdtill"=>,"checkin_date"=>,"checkin_time"=>,"checkout_date"=>,"checkout_time"=>,"checkin_byuser"=>(int),"remarks"=>,"isdiscount"=>(int),"datelogged"=>,"timelogged"=>,"status"=>,"userid"=>(int),"bizday"=>(int));
 			$invoice_sub2_dataproperty = array("invoice_number"=>$invoice_number);
 			mysqli_data_update($tbL130,$invoice_sub2_dataproperty,$invoice_data2_query);
 
