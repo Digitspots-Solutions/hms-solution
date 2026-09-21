@@ -115,6 +115,7 @@ if($_SERVER["REQUEST_METHOD"] == "POST") {
 		$wgt_room_total = $request_data_json['lodging'][0]['total'];
 		$wgt_no_of_days = $request_data_json['lodging'][0]['stay'];
 		$wgt_temp_date = $request_data_json['lodging'][0]['tempreservedate'];
+		if($wgt_temp_date == 'nil' || empty($wgt_temp_date)) { $wgt_temp_date = '0000-00-00'; }
 
 		$wgt_payment_mode = $request_data_json['payment'][0]['paymentmode'];
 		$wgt_amount_paid = $request_data_json['payment'][0]['amountpaid'];
@@ -413,7 +414,7 @@ if($_SERVER["REQUEST_METHOD"] == "POST") {
 				$isdata = mysqli_data_insert($tbL131,$sql_py_pst_data,'');*/
 
 				$pst_query = array("booking_number"=>$booking_number,"roomid"=>$ths_room_id,"bill_date"=>$server_get_date);
-				$pst_field = array("charge_type"=>"individual","billto"=>0,"booking_number"=>$booking_number,"invoice_number"=>$invoice_number,"room_type_id"=>$wgt_room_type,"roomid"=>$ths_room_id,"customerid"=>$guest_number,"day"=>0,"room_amount"=>$early_checkin_charges,"discount_amount"=>0,"tax_amount"=>0,"consumption_tax_amount"=>0,"service_charge"=>0,"occupancy_charges"=>0,"extrabed_charges"=>0,"charge"=>"yes","ischarged"=>1,"bill_date"=>$server_get_date,"wkf"=>2,"status"=>"Successful","room_status"=>$room_occupancy_status,"datelogged"=>$server_get_date,"timelogged"=>$server_get_time,"userid"=>$userSignedIn,"bizday"=>$server_get_bizedate);
+				$pst_field = array("charge_type"=>"individual","billto"=>0,"booking_number"=>$booking_number,"invoice_number"=>$invoice_number,"room_type_id"=>$wgt_room_type,"roomid"=>$ths_room_id,"customerid"=>$guest_number,"day"=>0,"daydate"=>$server_get_date,"room_amount"=>$early_checkin_charges,"discount_amount"=>0,"tax_amount"=>0,"consumption_tax_amount"=>0,"service_charge"=>0,"occupancy_charges"=>0,"extrabed_charges"=>0,"charge"=>"yes","ischarged"=>1,"bill_date"=>$server_get_date,"wkf"=>2,"status"=>"Successful","room_status"=>$room_occupancy_status,"datelogged"=>$server_get_date,"timelogged"=>$server_get_time,"userid"=>$userSignedIn,"bizday"=>$server_get_bizedate);
 
 				mysqli_data_insert($tbL134,$pst_field,$pst_query);
 
@@ -510,7 +511,7 @@ if($_SERVER["REQUEST_METHOD"] == "POST") {
 					}
 
 					$daily_charge_query = "";
-					$daily_sql = array("charge_type"=>$wgt_booking_type,"billto"=>$wgt_bill_to,"booking_number"=>$booking_number,"invoice_number"=>$getInv,"room_type_id"=>$wgt_room_type,"roomid"=>$rrid,"customerid"=>$getGst,"day"=>$i,"weekday"=>strtolower($getWk),"actual_room_amount"=>$actual_room_price,"actual_tax_amount"=>$actual_tax,"actual_service_charge"=>$actual_service_charges,"actual_consumption_tax_amount"=>$actual_consumption,"room_amount"=>$wgt_room_rate,"tax_amount"=>$xwgt_tax,"consumption_tax_amount"=>$xwgt_consumption,"service_charge"=>$xwgt_service_charge,"discount_amount"=>$xwgt_discount,"charge"=>$chargeroom,"bill_date"=>$getDt,"bill_time"=>$charge_time,"ischarged"=>$apply_charge_room,"status"=>$charge_status,"room_status"=>$charge_room_status,"userid"=>$userSignedIn,"datelogged"=>$server_get_date,"timelogged"=>$server_get_time,"bizday"=>$server_get_bizid);
+					$daily_sql = array("charge_type"=>$wgt_booking_type,"billto"=>$wgt_bill_to,"booking_number"=>$booking_number,"invoice_number"=>$getInv,"room_type_id"=>$wgt_room_type,"roomid"=>$rrid,"customerid"=>$getGst,"day"=>$i,"weekday"=>strtolower($getWk),"daydate"=>$getDt,"actual_room_amount"=>$actual_room_price,"actual_tax_amount"=>$actual_tax,"actual_service_charge"=>$actual_service_charges,"actual_consumption_tax_amount"=>$actual_consumption,"room_amount"=>$wgt_room_rate,"tax_amount"=>$xwgt_tax,"consumption_tax_amount"=>$xwgt_consumption,"service_charge"=>$xwgt_service_charge,"discount_amount"=>$xwgt_discount,"charge"=>$chargeroom,"bill_date"=>$getDt,"bill_time"=>$charge_time,"ischarged"=>$apply_charge_room,"status"=>$charge_status,"room_status"=>$charge_room_status,"userid"=>$userSignedIn,"datelogged"=>$server_get_date,"timelogged"=>$server_get_time,"bizday"=>$server_get_bizid);
 					
 					mysqli_data_insert($tbL134,$daily_sql,$daily_charge_query);
 
