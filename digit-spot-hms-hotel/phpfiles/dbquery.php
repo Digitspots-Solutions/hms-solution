@@ -687,6 +687,7 @@
 
 		if(isset($_GET['jmsg']) && $_GET['jmsg'] == 'get-cur-biller')
 		{
+			$myObj = new stdClass();
 			$dataid_query = escape_data($_GET['jstring']);
 			
 			$dtkey = array("order_number"=>$dataid_query);
@@ -708,6 +709,7 @@
 
 		if(isset($_GET['jsonclass']) && ($_GET['jsonclass'] == 'frontdesk-list-room-type-detail' || $_GET['jsonclass'] == 'nodetail'))
 		{
+			$myObj = new stdClass();
 			$dataid_query = escape_data($_GET['jsonkey']);
 			$wktr = escape_data($_GET['wkt']);
 			$ctype = escape_data($_GET['ctype']);
