@@ -383,7 +383,7 @@ include "../../includes/common_data_vars.php";
 				mysqli_data_insert($tbL97,$room_d2_dataproperty,$room_d2_constrain);
 
 				#guest occupancy detail
-				$guest_occupancy_dataproperty = array("booking_number"=>$booking_number,"customerid"=>(int)$csc_arry[$r],"roomid"=>(int)$room_number[$r],"room_type_id"=>(int)$roomtype,"adult"=>1,"occupancy_type"=>0,"checkin_date"=>$start_date,"checkout_date"=>$end_date,"checkin_time"=>$server_get_time,"status"=>"Checked In","datelogged"=>$server_get_date,"timelogged"=>$server_get_time);
+				$guest_occupancy_dataproperty = array("booking_number"=>$booking_number,"customerid"=>(int)$csc_arry[$r],"roomid"=>(int)$room_number[$r],"room_type_id"=>(int)$roomtype[$r],"adult"=>1,"occupancy_type"=>0,"checkin_date"=>$start_date,"checkout_date"=>$end_date,"checkin_time"=>$server_get_time,"status"=>"Checked In","datelogged"=>$server_get_date,"timelogged"=>$server_get_time);
 				$room_d3_constrain = array("booking_number"=>$booking_number,"roomid"=>$room_number[$r]);
 				mysqli_data_insert($tbL127,$guest_occupancy_dataproperty,$room_d3_constrain);
 
@@ -471,7 +471,7 @@ include "../../includes/common_data_vars.php";
 				mysqli_data_insert($tbL97,$room_d2_dataproperty,$room_d2_constrain);
 
 				#guest occupancy detail
-				$guest_occupancy_dataproperty = array("booking_number"=>$booking_number,"customerid"=>(int)$csc_arry[$r],"roomid"=>(int)$room_number[$r],"room_type_id"=>(int)$roomtype,"adult"=>1,"occupancy_type"=>0,"checkin_date"=>$start_date,"checkout_date"=>$end_date,"status"=>"Reserved","datelogged"=>$server_get_date,"timelogged"=>$server_get_time); $room_d3_constrain = array("booking_number"=>$booking_number,"roomid"=>$room_number[$r]);
+				$guest_occupancy_dataproperty = array("booking_number"=>$booking_number,"customerid"=>(int)$csc_arry[$r],"roomid"=>(int)$room_number[$r],"room_type_id"=>(int)$roomtype[$r],"adult"=>1,"occupancy_type"=>0,"checkin_date"=>$start_date,"checkout_date"=>$end_date,"status"=>"Reserved","datelogged"=>$server_get_date,"timelogged"=>$server_get_time); $room_d3_constrain = array("booking_number"=>$booking_number,"roomid"=>$room_number[$r]);
 				mysqli_data_insert($tbL127,$guest_occupancy_dataproperty,$room_d3_constrain);
 
 				#update room housekeeping status
@@ -559,7 +559,7 @@ include "../../includes/common_data_vars.php";
 				mysqli_data_insert($tbL97,$room_d2_dataproperty,$room_d2_constrain);
 
 				#guest occupancy detail
-				$guest_occupancy_dataproperty = array("booking_number"=>$booking_number,"customerid"=>(int)$csc_arry[$r],"roomid"=>(int)$room_number[$r],"room_type_id"=>(int)$roomtype,"adult"=>1,"occupancy_type"=>0,"checkin_date"=>$start_date,"checkout_date"=>$end_date,"status"=>"Temp. Reserved","datelogged"=>$server_get_date,"timelogged"=>$server_get_time); $room_d3_constrain = array("booking_number"=>$booking_number,"roomid"=>$room_number[$r]);
+				$guest_occupancy_dataproperty = array("booking_number"=>$booking_number,"customerid"=>(int)$csc_arry[$r],"roomid"=>(int)$room_number[$r],"room_type_id"=>(int)$roomtype[$r],"adult"=>1,"occupancy_type"=>0,"checkin_date"=>$start_date,"checkout_date"=>$end_date,"status"=>"Temp. Reserved","datelogged"=>$server_get_date,"timelogged"=>$server_get_time); $room_d3_constrain = array("booking_number"=>$booking_number,"roomid"=>$room_number[$r]);
 				mysqli_data_insert($tbL127,$guest_occupancy_dataproperty,$room_d3_constrain);
 
 				
