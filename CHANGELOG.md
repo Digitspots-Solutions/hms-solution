@@ -70,3 +70,8 @@ All sub-apps have a `jspath.js` file that defines `filePath` — the base URL us
 - **PHP 8 Compatibility**: Pulled upstream fix from `origin/master` for `digit-spot-hms-pos/public/admin/materialcontrol/includes/custom_functions.php` to resolve `count()` errors when an array is empty.
 - **Root `index.html`**: Added a fallback `<meta http-equiv="refresh">` redirect to ensure users never see the repository documentation placeholder page.
 - **`sync_code.sh`**: Re-added the Docker volume mount `-v /home/ubuntu/hms-solution:/var/www/html` to `docker run`. The `Dockerfile` does not copy files into the image natively, which had resulted in Apache returning a `403 Forbidden` error when trying to serve an empty directory.
+
+## Booking Module PHP 8 Fix (2026-09-21)
+
+### Fixed
+- **PHP 8 Compatibility**: Added `$myObj = new stdClass();` initialization in `digit-spot-hms-hotel/phpfiles/dbquery.php` before setting properties. Previously, PHP 8.1 on the EC2 host was throwing `Creating default object from empty value` warnings which broke the JSON payload. This bug prevented users from successfully selecting a room type in the booking UI because the frontend JavaScript `JSON.parse` crashed.
