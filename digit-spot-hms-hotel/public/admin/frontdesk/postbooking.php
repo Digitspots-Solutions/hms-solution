@@ -48,9 +48,9 @@ if($_SERVER["REQUEST_METHOD"] == "POST") {
 				$coldataset = "photo,address,city,state,country,means_of_identification,identification_number,occupation,period_of_stay,gender,age,dob,pob,nationality,immi_status,allien_regno,employer,phoneno,zip_code,country_date_checkin,next_destination,id_issue_date,id_issue_place,current_address,probable_destination,passport_no,issue_date,expiry_date,issue_place,visa_validity,virtual_guest_code,primary_guest";
 				$get_guest = mysqli_data_fetch($tbL102,$coldataset,$guest_query,'noarray');
 				array_push($gvd,$get_guest[0]); array_push($gvd,$get_guest[1]); array_push($gvd,$get_guest[2]);
-				array_push($gvd,$get_guest[3]); array_push($gvd,$get_guest[4]); array_push($gvd,$get_guest[5]);
+				array_push($gvd,$get_guest[3]); array_push($gvd,$get_guest[4]); array_push($gvd,empty($get_guest[5]) ? 0 : (int)$get_guest[5]);
 				array_push($gvd,$get_guest[6]); array_push($gvd,$get_guest[7]); array_push($gvd,$get_guest[8]);
-				array_push($gvd,$get_guest[9]); array_push($gvd,$get_guest[10]); array_push($gvd,$get_guest[11]);
+				array_push($gvd,$get_guest[9]); array_push($gvd,empty($get_guest[10]) ? 0 : (int)$get_guest[10]); array_push($gvd,$get_guest[11]);
 				array_push($gvd,$get_guest[12]); array_push($gvd,$get_guest[13]); array_push($gvd,$get_guest[14]);
 				array_push($gvd,$get_guest[15]); array_push($gvd,$get_guest[16]); array_push($gvd,$get_guest[17]);
 				array_push($gvd,$get_guest[18]); array_push($gvd,$get_guest[19]); array_push($gvd,$get_guest[20]);
@@ -331,10 +331,10 @@ if($_SERVER["REQUEST_METHOD"] == "POST") {
 
 							$guest_sql['photo'] = $get_guest[0]; $guest_sql['address'] = $get_guest[1];
 							$guest_sql['city'] = $get_guest[2]; $guest_sql['state'] = $get_guest[3];
-							$guest_sql['country'] = $get_guest[4]; $guest_sql['means_of_identification'] = $get_guest[5];
+							$guest_sql['country'] = $get_guest[4]; $guest_sql['means_of_identification'] = empty($get_guest[5]) ? 0 : (int)$get_guest[5];
 							$guest_sql['identification_number'] = $get_guest[6]; $guest_sql['occupation'] = $get_guest[7];
 							$guest_sql['period_of_stay'] = $get_guest[8]; $guest_sql['gender'] = $get_guest[9];
-							$guest_sql['age'] = $get_guest[10]; $guest_sql['dob'] = $get_guest[11]; $guest_sql['pob'] = $get_guest[12];
+							$guest_sql['age'] = empty($get_guest[10]) ? 0 : (int)$get_guest[10]; $guest_sql['dob'] = $get_guest[11]; $guest_sql['pob'] = $get_guest[12];
 							$guest_sql['nationality'] = $get_guest[13]; $guest_sql['immi_status'] = $get_guest[14];
 							$guest_sql['allien_regno'] = $get_guest[15]; $guest_sql['employer'] = $get_guest[16];
 							$guest_sql['phoneno'] = $get_guest[17]; $guest_sql['zip_code'] = $get_guest[18];
@@ -370,10 +370,10 @@ if($_SERVER["REQUEST_METHOD"] == "POST") {
 
 						$guest_sql['photo'] = $get_guest[0]; $guest_sql['address'] = $get_guest[1];
 						$guest_sql['city'] = $get_guest[2]; $guest_sql['state'] = $get_guest[3];
-						$guest_sql['country'] = $get_guest[4]; $guest_sql['means_of_identification'] = $get_guest[5];
+						$guest_sql['country'] = $get_guest[4]; $guest_sql['means_of_identification'] = empty($get_guest[5]) ? 0 : (int)$get_guest[5];
 						$guest_sql['identification_number'] = $get_guest[6]; $guest_sql['occupation'] = $get_guest[7];
 						$guest_sql['period_of_stay'] = $get_guest[8]; $guest_sql['gender'] = $get_guest[9];
-						$guest_sql['age'] = $get_guest[10]; $guest_sql['dob'] = $get_guest[11]; $guest_sql['pob'] = $get_guest[12];
+						$guest_sql['age'] = empty($get_guest[10]) ? 0 : (int)$get_guest[10]; $guest_sql['dob'] = $get_guest[11]; $guest_sql['pob'] = $get_guest[12];
 						$guest_sql['nationality'] = $get_guest[13]; $guest_sql['immi_status'] = $get_guest[14];
 						$guest_sql['allien_regno'] = $get_guest[15]; $guest_sql['employer'] = $get_guest[16];
 						$guest_sql['phoneno'] = $get_guest[17]; $guest_sql['zip_code'] = $get_guest[18];
