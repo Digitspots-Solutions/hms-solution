@@ -75,3 +75,11 @@ All sub-apps have a `jspath.js` file that defines `filePath` — the base URL us
 
 ### Fixed
 - **PHP 8 Compatibility**: Added `$myObj = new stdClass();` initialization in `digit-spot-hms-hotel/phpfiles/dbquery.php` before setting properties. Previously, PHP 8.1 on the EC2 host was throwing `Creating default object from empty value` warnings which broke the JSON payload. This bug prevented users from successfully selecting a room type in the booking UI because the frontend JavaScript `JSON.parse` crashed.
+
+## MySQL Strict Mode Fixes (2026-09-21)
+
+### Fixed
+- **Mobile Number Length**: Increased the `mobile` and `phoneno` column lengths in `guest_tbl` (from 11/20 to 30) to prevent truncation errors for international numbers like `009166100117`.
+- **Invalid `holdtill` Dates**: Updated `postbooking.php` to intercept `"nil"` values passed from the frontend for temporary reservation dates and default them to `'0000-00-00'`. MySQL strict mode previously threw an `Incorrect date value: 'nil'` error.
+- **Missing `daydate` Field**: Added the required `daydate` column to the `daily_invoice_charges_tbl` insertion arrays in `postbooking.php`. The database rejected the insertions because it lacked a default value.
+- **Missing Integer Values (age, means_of_identification)**: Casted `$get_guest[10]` (`age`) and `$get_guest[5]` (`means_of_identification`) to `(int)` in `postbooking.php` when duplicating returning guest profiles (Virtual Guest). If those fields were empty in the original profile, they evaluated to `""`, causing MySQL to throw `Incorrect integer value: ''` and silently fail the guest insertion.
