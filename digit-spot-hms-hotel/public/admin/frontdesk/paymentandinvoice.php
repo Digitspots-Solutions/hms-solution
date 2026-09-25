@@ -73,7 +73,7 @@
 			$sales_counter_query = array("counterid"=>$counter_sesid,"userid"=>$userSignedIn,"fundid"=>$postPaymode,"ispast"=>0);
 			$sales_counter_data = mysqli_data_fetch($tbL25,'collection',$sales_counter_query,'noarray');
 
-			$new_collection = $sales_counter_data[0] + $postAmount;
+			$new_collection = (float)$sales_counter_data[0] + (float)$postAmount;
 			
 			$sales_counter_sql = array("collection"=>$new_collection);
 			mysqli_data_update($tbL25,$sales_counter_sql,$sales_counter_query);
@@ -221,7 +221,7 @@
 
 			$sales_counter_query = array("counterid"=>$counter_sesid,"userid"=>$userSignedIn,"fundid"=>$fund_id,"ispast"=>0);
 			$sales_counter_data = mysqli_data_fetch($tbL25,'refunds',$sales_counter_query,'noarray');
-			$new_refunds = $sales_counter_data[0] + $rebate_amt;
+			$new_refunds = (float)$sales_counter_data[0] + (float)$rebate_amt;
 
 			$sales_counter_sql = array("refunds"=>$new_refunds);		
 			$isdata = mysqli_data_update($tbL25,$sales_counter_sql,$sales_counter_query);
@@ -376,7 +376,7 @@
 			#update user counter
 			$sales_counter_query = array("counterid"=>$counter_sesid,"userid"=>$userSignedIn,"fundid"=>$wgt_paymode,"ispast"=>0);
 			$sales_counter_data = mysqli_data_fetch($tbL25,'refunds',$sales_counter_query,'noarray');
-			$new_refunds = $sales_counter_data[0] + $wgt_amount;
+			$new_refunds = (float)$sales_counter_data[0] + (float)$wgt_amount;
 
 			$sales_counter_sql = array("refunds"=>$new_refunds);		
 			$isdata = mysqli_data_update($tbL25,$sales_counter_sql,$sales_counter_query);
@@ -557,7 +557,7 @@
 						
 						$sales_counter_query = array("counterid"=>$counter_sesid,"userid"=>$userSignedIn,"fundid"=>$wgt_paymentmode,"ispast"=>0); $sales_counter_data = mysqli_data_fetch($tbL25,'collection',$sales_counter_query,'noarray');
 
-						$new_collection = $sales_counter_data[0] + $totalamount;
+						$new_collection = (float)$sales_counter_data[0] + (float)$totalamount;
 						$cash2refund = $totalamount - $totalbal2pay;
 						
 						if($cash2refund > 0) { $sales_counter_sql = array("collection"=>$new_collection); }
@@ -620,8 +620,8 @@
 							
 							$sales_counter_query = array("counterid"=>$counter_sesid,"userid"=>$userSignedIn,"fundid"=>$wgt_paymentmode,"ispast"=>0); $sales_counter_data = mysqli_data_fetch($tbL25,'collection',$sales_counter_query,'noarray');
 
-							$new_collection = $sales_counter_data[0] + $wgt_amountdeposited;
-							$cash2refund = $wgt_amountdeposited - $totalbal2pay;
+							$new_collection = (float)$sales_counter_data[0] + (float)$wgt_amountdeposited;
+							$cash2refund = (float)$wgt_amountdeposited - (float)$totalbal2pay;
 							
 							if($cash2refund > 0) { $sales_counter_sql = array("collection"=>$new_collection); }
 							else { $sales_counter_sql = array("collection"=>$new_collection); }
@@ -729,7 +729,7 @@
 						
 						#update sales for open-counter
 						/*if((isset($wgt_paymentmode) && $wgt_paymentmode > 0) && (isset($totalamount) && $totalamount > 0)) {
-							$sales_counter_query = array("counterid"=>$counter_sesid,"userid"=>$userSignedIn,"fundid"=>$wgt_paymentmode,"ispast"=>0); $sales_counter_data = mysqli_data_fetch($tbL25,'collection',$sales_counter_query,'noarray'); $new_collection = $sales_counter_data[0] + $totalamount;
+							$sales_counter_query = array("counterid"=>$counter_sesid,"userid"=>$userSignedIn,"fundid"=>$wgt_paymentmode,"ispast"=>0); $sales_counter_data = mysqli_data_fetch($tbL25,'collection',$sales_counter_query,'noarray'); $new_collection = (float)$sales_counter_data[0] + (float)$totalamount;
 							
 							$sales_counter_sql = array("withdrawal"=>$new_withdrawal);
 							mysqli_data_update($tbL25,$sales_counter_sql,$sales_counter_query);
@@ -785,7 +785,7 @@
 
 							#update sales for open-counter
 							/*if(isset($wgt_paymentmode) && $wgt_paymentmode > 0) {
-								$sales_counter_query = array("counterid"=>$counter_sesid,"userid"=>$userSignedIn,"fundid"=>$wgt_paymentmode,"ispast"=>0); $sales_counter_data = mysqli_data_fetch($tbL25,'withdrawal',$sales_counter_query,'noarray'); $new_withdrawal = $sales_counter_data[0] + $wgt_amountdeposited;
+								$sales_counter_query = array("counterid"=>$counter_sesid,"userid"=>$userSignedIn,"fundid"=>$wgt_paymentmode,"ispast"=>0); $sales_counter_data = mysqli_data_fetch($tbL25,'withdrawal',$sales_counter_query,'noarray'); $new_withdrawal = (float)$sales_counter_data[0] + (float)$wgt_amountdeposited;
 								
 								$sales_counter_sql = array("withdrawal"=>$new_withdrawal);
 								mysqli_data_update($tbL25,$sales_counter_sql,$sales_counter_query);
