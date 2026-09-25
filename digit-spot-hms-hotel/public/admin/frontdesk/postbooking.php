@@ -1421,7 +1421,7 @@ if($_SERVER["REQUEST_METHOD"] == "POST") {
 
 	##log guest activities
 	if(isset($isguestAct) && $isguestAct == 1) {
-		$ths_guest_pry = $ths_customer;
+		$ths_guest_pry = empty($ths_customer) ? 0 : (int)$ths_customer;
 		$guest_activities_dataproperty = array("booking_number"=>$pst_booking_number,"customerid"=>$ths_guest_pry,"userid"=>$wgt_userid,"activities"=>$guestAct_msg,"datelogged"=>$server_get_date,"timelogged"=>$server_get_time); mysqli_data_insert($tbL132,$guest_activities_dataproperty,'');
 	}
 }

@@ -481,11 +481,11 @@
 	if(isset($_POST['vastpaymentbutton'])) {
 		
 		$wgt_pstbooking = $_POST['pstbookingnumber'];
-		$wgt_pstbiller = $_POST['pstbiller'];
-		$wgt_paymentmode = $_POST['paymentmode'];
-		$wgt_amountdeposited = $_POST['wgtf1'] + $_POST['wgtf2'];
-		$first_amount = escape_data($_POST['wgtf1']);
-		$second_amount = escape_data($_POST['wgtf2']);
+		$wgt_pstbiller = empty($_POST['pstbiller']) ? 0 : (int)$_POST['pstbiller'];
+		$wgt_paymentmode = empty($_POST['paymentmode']) ? 0 : (int)$_POST['paymentmode'];
+		$wgt_amountdeposited = (empty($_POST['wgtf1']) ? 0 : (float)$_POST['wgtf1']) + (empty($_POST['wgtf2']) ? 0 : (float)$_POST['wgtf2']);
+		$first_amount = empty($_POST['wgtf1']) ? 0 : (float)escape_data($_POST['wgtf1']);
+		$second_amount = empty($_POST['wgtf2']) ? 0 : (float)escape_data($_POST['wgtf2']);
 		$wgt_chequenumber = $_POST['chequenumber'];
 		$wgt_detail = escape_data($_POST['detail']);
 		$wgt_crdinvoice = $_POST['crdinvoice'];
@@ -673,8 +673,8 @@
 		if(isset($wgt_amountdeposited) && $wgt_amountdeposited > 0) {
 		
 			$wgt_pstbooking = $_POST['pstbookingnumber'];
-			$wgt_pstbiller = $_POST['pstbiller'];
-			$wgt_paymentmode = $_POST['mode4coupon'];
+			$wgt_pstbiller = empty($_POST['pstbiller']) ? 0 : (int)$_POST['pstbiller'];
+			$wgt_paymentmode = empty($_POST['mode4coupon']) ? 0 : (int)$_POST['mode4coupon'];
 			$wgt_detail = escape_data($_POST['detail2']);
 			$wgt_crdinvoice = $_POST['crdinvoice2'];
 
